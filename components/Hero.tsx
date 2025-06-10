@@ -6,13 +6,13 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 
-const ReactRotatingText = require("react-rotating-text");
+import ReactRotatingText from "react-rotating-text";
 
 const Hero = () => {
   return (
     <>
-      <div className="bg-[#F9FAFB] w-full h-full px-0">
-        <section className="">
+      <div className="w-full h-full px-0 min-h-screen">
+        <section className="bg-[#F9FAFB]">
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-4xl">
               <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide mt-10">
@@ -29,11 +29,9 @@ const Hero = () => {
                 </span>{" "}
                 from Paralia
               </h1>
-              <h2 className="text-2xl pt-6 tracking-normal">
-                Make this summer unforgetable!
-              </h2>
-              <p className="text-muted-foreground tracking-wide ">
+              <p className="text-muted-foreground/80 tracking-wider pt-4">
                 Choose from one of our three-star Hotels
+                <br /> and make this summer unforgetable!
               </p>
             </div>
           </div>
@@ -98,6 +96,104 @@ const Hero = () => {
           </div>
         </section>
       </div>
+
+      <section className="pt-10 bg-[#F3F4F6] p-4 pb-10" id="location">
+        <div className="flex flex-col justify-center items-center">
+          <h1 className="text-7xl leading-[72px] tracking-wide mt-10">
+            LOCATION
+          </h1>
+          <p className="text-muted-foreground/80 tracking-wider pt-4 mb-6 text-center">
+            Our hotels are located in a vibrant neighbourhood <br /> near the
+            center of Paralia!
+          </p>
+        </div>
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-10">
+          <Card className="relative overflow-hidden border-0 shadow-2xl bg-card py-0">
+            <div>
+              <Image
+                src="/paralia1.avif"
+                alt="paralia-katerini"
+                width={600}
+                height={400}
+                className="w-full h-100 object-fill"
+              />
+            </div>
+            <CardContent>
+              <div className="flex flex-col items-center justify-center mb-5">
+                <h3 className="text-center text-2xl text-card-foreground mb-3">
+                  Paralia
+                </h3>
+                <p className="text-center text-muted-foreground mb-6">
+                  Where the Mythical Olympus mountain meets the Aegean blue.
+                  <br />A land full of attractions and benefits for your
+                  holidays!
+                </p>
+                <Button className="w-full">
+                  <Link href="/destinations">Read More</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="relative overflow-hidden border-0 shadow-2xl bg-card py-0">
+            <div>
+              <Image
+                src="/meteora1.avif"
+                alt="meteora"
+                width={600}
+                height={400}
+                className="w-full h-100 object-fill"
+              />
+            </div>
+            <CardContent>
+              <div className="flex flex-col items-center justify-center mb-5">
+                <h3 className="text-center text-2xl text-card-foreground mb-3">
+                  Sightseeing
+                </h3>
+                <p className="text-center text-muted-foreground mb-6">
+                  Explore all greeks finest destinations.
+                  <br />
+                  From Meteora, to Athens to many popular destinations nearby.
+                  <br />
+                  We have it all!
+                </p>
+                <Button className="w-full">
+                  <Link href="/destinations">Explore Destinations</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+          <Card className="relative overflow-hidden border-0 shadow-2xl bg-card py-0">
+            <div>
+              <Image
+                src="/location1.png"
+                alt="maps-location"
+                width={600}
+                height={400}
+                className="w-full h-100 object-fill"
+              />
+            </div>
+            <CardContent>
+              <div className="flex flex-col items-center justify-center mb-5">
+                <h3 className="text-center text-2xl text-card-foreground mb-3">
+                  Our Location
+                </h3>
+                <p className="text-center text-muted-foreground mb-6">
+                  Located near the center of Paralia.
+                  <br />
+                  In a vibrant neighbourhood full of hotels, restaurants and
+                  shops.
+                  <br />
+                  Just under 100 meters from the beach!
+                </p>
+                <Button className="w-full">
+                  <Link href="/contact">Find Us</Link>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
     </>
   );
 };

@@ -17,8 +17,8 @@ interface NavLinks {
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="top-0 z-50 sticky bg-[#FFFFF] border-b border-foreground/20">
-      <div className="hidden px-[100px] h-25 md:flex justify-between">
+    <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
+      <div className="hidden px-[100px] h-25 md:flex justify-between z-10">
         <div className="md:flex items-center justify-center ">
           <Link href="/">
             <Image src="/logo.png" width={90} height={90} alt="logo" />
