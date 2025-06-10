@@ -17,11 +17,11 @@ interface NavLinks {
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="top-0 sticky bg-background/80 border-b border-foreground/20">
+    <nav className="top-0 z-50 sticky bg-[#FFFFF] border-b border-foreground/20">
       <div className="hidden px-[100px] h-25 md:flex justify-between">
         <div className="md:flex items-center justify-center ">
           <Link href="/">
-            <Image src="/logo.png" width={100} height={100} alt="logo" />
+            <Image src="/logo.png" width={90} height={90} alt="logo" />
           </Link>
           <h2 className="text-xl">Ziskos Hotels</h2>
         </div>

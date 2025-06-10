@@ -33,7 +33,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${montserrat.variable} antialiased`}
       >
         <Navbar />
-        <div className="max-w-screen-xl mx-auto px-4">{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );
