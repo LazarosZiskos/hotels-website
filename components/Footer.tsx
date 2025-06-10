@@ -8,8 +8,9 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 max-w-6xl mx-auto pt-6">
         <h1 className="text-4xl tracking-wider">Ziskos Hotels</h1>
 
-        <p className="text-white tracking-wider">
-          Creating unforgetable Memories for you and your family
+        <p className="text-white text-center tracking-wider">
+          ß∑ Creating unforgetable Memories <br />
+          for you and your family
         </p>
 
         <h3 className="text-white/80">Find us on social media</h3>

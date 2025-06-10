@@ -10,8 +10,8 @@ import RotatingText from "./RotatingText";
 const Hero = () => {
   return (
     <>
-      <div className="w-full h-full px-0 min-h-screen">
-        <section className="bg-[#F9FAFB]">
+      <div className="w-full h-full min-h-screen">
+        <section className="bg-[#F9FAFB] p-4 pb-10">
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-6xl">
               <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide mt-10">
