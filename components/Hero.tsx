@@ -5,8 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
-
-import ReactRotatingText from "react-rotating-text";
+import RotatingText from "./RotatingText";
 
 const Hero = () => {
   return (
@@ -14,17 +13,26 @@ const Hero = () => {
       <div className="w-full h-full px-0 min-h-screen">
         <section className="bg-[#F9FAFB]">
           <div className="flex flex-col items-center justify-center">
-            <div className="text-center max-w-4xl">
+            <div className="text-center max-w-6xl">
               <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide mt-10">
                 <span className="text-amber-400">
-                  <ReactRotatingText
-                    items={[
+                  <RotatingText
+                    texts={[
                       "Καλημέρα",
                       "Good Morning",
                       "Dobar Dan",
                       "Bună dimineaţa",
                       "Dobre Utro",
                     ]}
+                    mainClassName="px-2 sm:px-2 md:px-3 overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center"
+                    staggerFrom={"last"}
+                    initial={{ y: "100%" }}
+                    animate={{ y: 0 }}
+                    exit={{ y: "-120%" }}
+                    staggerDuration={0.025}
+                    splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+                    transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                    rotationInterval={5000}
                   />
                 </span>{" "}
                 from Paralia
