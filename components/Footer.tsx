@@ -9,7 +9,7 @@ const Footer = () => {
         <h1 className="text-4xl tracking-wider">Ziskos Hotels</h1>
 
         <p className="text-white text-center tracking-wider">
-          ß∑ Creating unforgetable Memories <br />
+          Creating unforgetable Memories <br />
           for you and your family
         </p>
 
