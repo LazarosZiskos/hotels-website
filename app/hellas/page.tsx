@@ -1,5 +1,7 @@
+import PhotoCarousel from "@/components/PhotoCarousel";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { images } from "@/constants/constants";
 import { Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -36,13 +38,13 @@ const page = () => {
             src="/hellas1.jpg"
             alt="hotel-hellas"
             width={500}
-            height={400}
+            height={300}
             className="rounded-2xl shadow-2xl"
           />
         </div>
       </div>
 
-      <div className="mt-20 flex flex-col justify-center items-center gap-8">
+      <div className="mt-35 flex flex-col justify-center items-center gap-8">
         <h1 className="text-6xl tracking-wider">Our Accomodation</h1>
         <p className="text-center text-muted-foreground tracking-wider leading-7">
           Choose from our confortable double, triple and quadruple rooms.
@@ -70,6 +72,7 @@ const page = () => {
             </span>
           </div>
         </div>
+        <PhotoCarousel images={images} />
       </div>
     </section>
   );

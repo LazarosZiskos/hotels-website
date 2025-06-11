@@ -25,3 +25,26 @@ export const navLinks = [
     href: "/contact",
   },
 ];
+
+export const images = [
+  {
+    src: "/gl1.jpeg",
+    alt: "gl1",
+  },
+  {
+    src: "/hellas1.jpg",
+    alt: "hellas1",
+  },
+  {
+    src: "/logo.png",
+    alt: "hellas1",
+  },
+  {
+    src: "/meteora1.avif",
+    alt: "hellas1",
+  },
+  {
+    src: "/paralia1.avif",
+    alt: "hellas1",
+  },
+];
