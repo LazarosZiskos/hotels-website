@@ -11,11 +11,11 @@ const Hero = () => {
   return (
     <>
       <div className="w-full h-full min-h-screen">
-        <section className="bg-[#F9FAFB] p-4 pb-10">
+        <section className=" p-4 pb-10">
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-6xl">
-              <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide mt-10">
-                <span className="text-amber-400">
+              <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide font-serif mt-10">
+                <span className="text-primary font-semibold">
                   <RotatingText
                     texts={[
                       "Καλημέρα",
@@ -37,7 +37,7 @@ const Hero = () => {
                 </span>{" "}
                 from Paralia
               </h1>
-              <p className="text-muted-foreground/80 tracking-wider pt-4">
+              <p className="text-muted-foreground/80 tracking-wider font-serif pt-4">
                 Choose from one of our three-star Hotels
                 <br /> and make this summer unforgetable!
               </p>
@@ -54,7 +54,7 @@ const Hero = () => {
                   height={400}
                   className="w-full h-100 object-fill"
                 />
-                <Badge className="absolute top-4 left-4 text-black font-bold bg-amber-200">
+                <Badge className="absolute font-serif top-4 left-4 text-black font-bold bg-primary">
                   3-Star Hotel
                 </Badge>
               </div>
@@ -63,11 +63,11 @@ const Hero = () => {
                   <h3 className="text-center text-2xl text-card-foreground mb-3">
                     Hotel Hellas
                   </h3>
-                  <p className="text-center text-muted-foreground mb-6">
+                  <p className="text-center text-muted-foreground font-serif mb-6">
                     A family hotel near the center of Paralia, <br /> to host
                     all your favourite moments.
                   </p>
-                  <Button className="w-full">
+                  <Button className="w-full mb-4">
                     <Link href="/hellas">Explore Hotel Hellas</Link>
                   </Button>
                 </div>
@@ -83,7 +83,7 @@ const Hero = () => {
                   height={400}
                   className="w-full h-100 object-fill"
                 />
-                <Badge className="absolute top-4 left-4 text-black font-bold bg-amber-600">
+                <Badge className="absolute font-serif top-4 left-4 text-secondary font-bold bg-primary/20">
                   3-Star Hotel
                 </Badge>
               </div>
@@ -92,12 +92,14 @@ const Hero = () => {
                   <h3 className="text-center text-2xl text-card-foreground mb-3">
                     Hotel GL
                   </h3>
-                  <p className="text-center text-muted-foreground mb-6">
+                  <p className="text-center font-serif text-muted-foreground mb-6">
                     The perfect balance between luxury <br /> and confort
                   </p>
-                  <Button className="w-full">
-                    <Link href="/gl">Explore Hotel GL</Link>
-                  </Button>
+                  <Link href="/gl" className="w-full cursor-pointer">
+                    <Button className="w-full cursor-poiner">
+                      Explore Hotel GL
+                    </Button>
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -110,7 +112,7 @@ const Hero = () => {
           <h1 className="text-7xl leading-[72px] tracking-wide mt-10">
             LOCATION
           </h1>
-          <p className="text-muted-foreground/80 tracking-wider pt-4 mb-6 text-center">
+          <p className="text-muted-foreground/80 font-serif tracking-wider pt-4 mb-6 text-center">
             Our hotels are located in a vibrant neighbourhood <br /> near the
             center of Paralia!
           </p>
@@ -127,11 +129,11 @@ const Hero = () => {
               />
             </div>
             <CardContent>
-              <div className="flex flex-col items-center justify-center mb-5">
+              <div className="flex flex-col items-center justify-center mb-5 h-[220px]">
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
                   Paralia
                 </h3>
-                <p className="text-center text-muted-foreground mb-6">
+                <p className="text-center h-[144px] font-serif text-muted-foreground mb-6">
                   Where the Mythical Olympus mountain meets the Aegean blue.
                   <br />A land full of attractions and benefits for your
                   holidays!
@@ -158,7 +160,7 @@ const Hero = () => {
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
                   Sightseeing
                 </h3>
-                <p className="text-center text-muted-foreground mb-6">
+                <p className="text-center font-serif text-muted-foreground mb-6">
                   Explore all greeks finest destinations.
                   <br />
                   From Meteora, to Athens to many popular destinations nearby.
@@ -186,7 +188,7 @@ const Hero = () => {
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
                   Our Location
                 </h3>
-                <p className="text-center text-muted-foreground mb-6">
+                <p className="text-center text-muted-foreground font-serif mb-6">
                   Located near the center of Paralia.
                   <br />
                   In a vibrant neighbourhood full of hotels, restaurants and

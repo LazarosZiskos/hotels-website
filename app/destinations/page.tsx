@@ -24,7 +24,7 @@ export default function page() {
           {/* Destinations List */}
           <div className="space-y-16">
             {destinations.map((destination, index) => (
-              <Card key={index} className="border-0 shadow-xl">
+              <Card key={index} className="border-0 py-0 shadow-xl">
                 <div
                   className={`grid md:grid-cols-2 ${
                     index % 2 === 1 ? "md:flex-row-reverse" : ""
@@ -35,7 +35,7 @@ export default function page() {
                       src={destination.image || "/gl1.jpeg"}
                       alt={destination.name}
                       fill
-                      className="object-cover"
+                      className="object-cover rounded-tl-xl rounded-bl-xl"
                     />
                     <Badge className="absolute top-4 left-4 bg-amber-400 hover:bg-accent-foreground text-black">
                       Featured Destination
@@ -45,11 +45,11 @@ export default function page() {
                     <h2 className="text-3xl tracking-wide text-card-foreground mb-4">
                       {destination.name}
                     </h2>
-                    <p className="body-md text-muted-foreground mb-6">
+                    <p className="body-md text-muted-foreground font-serif mb-6">
                       {destination.description}
                     </p>
 
-                    <div className="space-y-4 mb-6">
+                    <div className="space-y-4 mb-6 font-serif">
                       <div className="flex items-start space-x-3">
                         <MapPin className="w-5 text-amber-400 h-5 mt-1" />
                         <div>
@@ -68,7 +68,7 @@ export default function page() {
                       <h3 className="text-lg font-heading font-medium text-card-foreground mb-3">
                         Recommended Activities
                       </h3>
-                      <div className="flex flex-wrap gap-2">
+                      <div className="flex flex-wrap gap-2 font-serif">
                         {destination.activities.map((activity, i) => (
                           <span
                             key={i}

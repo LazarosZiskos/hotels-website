@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 max-w-6xl mx-auto pt-6">
         <h1 className="text-4xl tracking-wider">Ziskos Hotels</h1>
 
-        <p className="text-white text-center tracking-wider">
+        <p className="text-gray-300 text-center tracking-wider font-serif">
           Creating unforgetable Memories <br />
           for you and your family
         </p>
@@ -34,7 +34,7 @@ const Footer = () => {
             <Mail />
           </a>
         </div>
-        <div className="flex flex-col items-center justify-center gap-1 text-muted-foreground pb-4 text-sm tracking-wide">
+        <div className="flex flex-col font-serif items-center justify-center gap-1 text-muted-foreground pb-4 text-sm tracking-wide">
           <p>© 2025 Ziskos Hotels. All rights reserved.</p>
           <p className="">
             Designed and developed by{" "}

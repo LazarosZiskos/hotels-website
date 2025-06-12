@@ -20,10 +20,13 @@ const Navbar = () => {
     <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
       <div className="hidden px-[100px] h-25 md:flex justify-between z-10">
         <div className="md:flex items-center justify-center ">
-          <Link href="/">
+          <Link
+            href="/"
+            className="flex items-center justify-center font-semibold"
+          >
             <Image src="/logo.png" width={90} height={90} alt="logo" />
+            <h2 className="text-xl text-primary font-serif">Ziskos Hotels</h2>
           </Link>
-          <h2 className="text-xl">Ziskos Hotels</h2>
         </div>
 
         <div className="hidden md:flex items-center justify-center space-x-10">
@@ -35,7 +38,7 @@ const Navbar = () => {
                 pathname === link.href
                   ? "text-foreground"
                   : "text-muted-foreground",
-                "hover:text-foreground transition-colors"
+                "hover:text-foreground transition-colors font-serif "
               )}
             >
               {link.title}
