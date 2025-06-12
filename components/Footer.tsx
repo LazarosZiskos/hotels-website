@@ -8,12 +8,14 @@ const Footer = () => {
       <div className="flex flex-col items-center justify-center gap-4 max-w-6xl mx-auto pt-6">
         <h1 className="text-4xl tracking-wider">Ziskos Hotels</h1>
 
-        <p className="text-gray-300 text-center tracking-wider font-serif">
+        <p className="text-gray-300 text-sm md:text-md text-center tracking-wider font-serif">
           Creating unforgetable Memories <br />
           for you and your family
         </p>
 
-        <h3 className="text-white/80">Find us on social media</h3>
+        <h3 className="text-white/80 text-sm md:text-md">
+          Find us on social media
+        </h3>
         <div className="flex items-center justify-center gap-4 text-white/80">
           <Link
             href="/instagram.com"
@@ -34,7 +36,7 @@ const Footer = () => {
             <Mail />
           </a>
         </div>
-        <div className="flex flex-col font-serif items-center justify-center gap-1 text-muted-foreground pb-4 text-sm tracking-wide">
+        <div className="flex  flex-col font-serif items-center justify-center gap-1 text-muted-foreground pb-4 text-xs tracking-wide">
           <p>© 2025 Ziskos Hotels. All rights reserved.</p>
           <p className="">
             Designed and developed by{" "}

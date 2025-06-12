@@ -3,12 +3,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
+import Link from "next/link";
 
 export default function page() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-muted to-background">
-      <section className="py-20 px-4">
+      <section className="py-10 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-6xl text-foreground mb-6">
@@ -70,7 +71,7 @@ export default function page() {
                     rows={5}
                   />
                 </div>
-                <Button className="w-full bg-primary text-black  py-3 text-lg">
+                <Button className="w-full bg-primary cursor-pointer hover:scale-105 transition-all duration-300 text-black  py-3 text-lg">
                   Send Message
                 </Button>
               </CardContent>
@@ -80,9 +81,13 @@ export default function page() {
               <Card className="border-0 shadow-xl">
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
-                    <div className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center">
+                    <Link
+                      href="tel:00302351062571"
+                      target="_blank"
+                      className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
+                    >
                       <Phone className="w-6 h-6 text-background" />
-                    </div>
+                    </Link>
                     <div>
                       <h3 className="text-lg font-heading font-light text-card-foreground">
                         Phone
@@ -91,9 +96,13 @@ export default function page() {
                     </div>
                   </div>
                   <div className="flex items-center space-x-4 mb-6">
-                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                    <Link
+                      href="mailto:info@hotel-gl.gr"
+                      target="_blank"
+                      className="w-12 h-12 bg-primary rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
+                    >
                       <Mail className="w-6 h-6 text-primary-foreground" />
-                    </div>
+                    </Link>
                     <div>
                       <h3 className="text-lg font-heading font-light text-card-foreground">
                         Email
@@ -102,16 +111,18 @@ export default function page() {
                     </div>
                   </div>
                   <div className="flex items-center space-x-4">
-                    <div className="w-12 h-12 bg-accent-foreground rounded-full flex items-center justify-center">
-                      <Clock className="w-6 h-6 text-background" />
-                    </div>
+                    <Link
+                      href="tel:00306976103679"
+                      className="w-12 h-12 bg-accent-foreground rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
+                      target="_blank"
+                    >
+                      <Smartphone className="w-6 h-6 text-background" />
+                    </Link>
                     <div>
                       <h3 className="text-lg font-heading font-light text-card-foreground">
-                        Hours
+                        WhatsApp / Viber
                       </h3>
-                      <p className="text-muted-foreground">
-                        24/7 Concierge Service
-                      </p>
+                      <p className="text-muted-foreground">Text us</p>
                     </div>
                   </div>
                 </CardContent>
@@ -124,7 +135,11 @@ export default function page() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  <div className="flex items-start space-x-4">
+                  <Link
+                    href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                    className="flex items-start space-x-4 hover:scale-105 transition-all duration-300"
+                    target="_blank"
+                  >
                     <MapPin className="w-5 h-5 text-muted-foreground mt-1" />
                     <div>
                       <h4 className="font-heading font-medium text-card-foreground">
@@ -134,8 +149,12 @@ export default function page() {
                         Thrakis 1, Paralia Katerini Greece, 60100
                       </p>
                     </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
+                  </Link>
+                  <Link
+                    href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                    target="_blank"
+                    className="flex items-start space-x-4 hover:scale-105 transition-all duration-300"
+                  >
                     <MapPin className="w-5 h-5 text-muted-foreground mt-1" />
                     <div>
                       <h4 className="font-heading font-medium text-card-foreground">
@@ -145,7 +164,7 @@ export default function page() {
                         Thrakis 2, Paralia Katerini Greece, 60100
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 </CardContent>
               </Card>
             </div>

@@ -1,7 +1,7 @@
 import Amenities from "@/components/Amenities";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { images } from "@/constants/constants";
 import { Star } from "lucide-react";
 import Image from "next/image";
@@ -20,7 +20,7 @@ const page = () => {
             <h1 className="text-3xl md:text-6xl pb-4 tracking-wider">
               Hotel Hellas
             </h1>
-            <p className="text-muted-foreground font-serif text-center md:text-start  tracking-wider leading-8 md:w-[450px]">
+            <p className="text-muted-foreground text-sm md:text-md font-serif text-center md:text-start  tracking-wider leading-8 md:w-[450px]">
               Experience our beautiful hotel located in the heart of the city.
               Hotel Hellas a variety of rooms for all categories of travellers
               from solo travelers, couples and families.
@@ -36,10 +36,14 @@ const page = () => {
                 4.6/5 Guest Rating
               </p>
             </div>
-            <Link href="/contact" className="cursor-pointer">
-              <Button className="md:mt-8 mt-6 mb-6 md:mb-0 w-[358px]  md:w-[450px]">
-                Book Now
-              </Button>
+            <Link
+              href="/contact"
+              className={
+                buttonVariants() +
+                "md:mt-8 mt-6 mb-6 md:mb-0 w-[358px] md:w-[450px] hover:scale-105 duration-300 transition-all font-bold text-[18px]"
+              }
+            >
+              Book Now
             </Link>
           </div>
           <div className="md:w-1/2 max-h-[500px] rounded-lg overflow-y-hidden">
@@ -54,10 +58,10 @@ const page = () => {
         </div>
 
         <div className="mt-50 flex flex-col justify-center items-center gap-8 p-4">
-          <h1 className="text-5xl md:text-6xl tracking-wider text-center">
+          <h1 className="text-3xl md:text-6xl tracking-wider text-center">
             Our Accomodation
           </h1>
-          <p className="text-center font-serif  text-muted-foreground tracking-wider leading-7">
+          <p className="text-center text-sm md:text-md font-serif  text-muted-foreground tracking-wider leading-7">
             Choose from our confortable double, triple and quadruple rooms.
             <br />
             We offer street view and mountain view rooms.

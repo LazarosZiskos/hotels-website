@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +14,7 @@ const Hero = () => {
         <section className=" p-4 pb-10">
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-6xl">
-              <h1 className="text-7xl leading-[72px] md:w-[1000px] tracking-wide font-serif mt-10">
+              <h1 className="md:text-7xl text-4xl leading-[72px] md:w-[1000px] tracking-wide font-serif mt-10">
                 <span className="text-primary font-semibold">
                   <RotatingText
                     texts={[
@@ -37,7 +37,7 @@ const Hero = () => {
                 </span>{" "}
                 from Paralia
               </h1>
-              <p className="text-muted-foreground/80 tracking-wider font-serif pt-4">
+              <p className="text-sm md:text-md text-muted-foreground/80 tracking-wider font-serif pt-4">
                 Choose from one of our three-star Hotels
                 <br /> and make this summer unforgetable!
               </p>
@@ -67,9 +67,16 @@ const Hero = () => {
                     A family hotel near the center of Paralia, <br /> to host
                     all your favourite moments.
                   </p>
-                  <Button className="w-full mb-4">
-                    <Link href="/hellas">Explore Hotel Hellas</Link>
-                  </Button>
+
+                  <Link
+                    href="/hellas"
+                    className={
+                      buttonVariants() +
+                      "w-full mb-4 px-10 hover:scale-105 transition-all duration-300"
+                    }
+                  >
+                    Explore Hotel Hellas
+                  </Link>
                 </div>
               </CardContent>
             </Card>
@@ -93,12 +100,16 @@ const Hero = () => {
                     Hotel GL
                   </h3>
                   <p className="text-center font-serif text-muted-foreground mb-6">
-                    The perfect balance between luxury <br /> and confort
+                    The perfect balance between luxury <br /> and comfort
                   </p>
-                  <Link href="/gl" className="w-full cursor-pointer">
-                    <Button className="w-full cursor-poiner">
-                      Explore Hotel GL
-                    </Button>
+                  <Link
+                    href="/gl"
+                    className={
+                      buttonVariants() +
+                      "w-full mb-4 px-10 hover:scale-105 transition-all duration-300"
+                    }
+                  >
+                    Explore Hotel GL
                   </Link>
                 </div>
               </CardContent>
@@ -109,10 +120,10 @@ const Hero = () => {
 
       <section className="pt-10 bg-[#F3F4F6] p-4 pb-10" id="location">
         <div className="flex flex-col justify-center items-center">
-          <h1 className="text-7xl leading-[72px] tracking-wide mt-10">
+          <h1 className="text-3xl md:text-7xl leading-[72px] tracking-wide mt-10">
             LOCATION
           </h1>
-          <p className="text-muted-foreground/80 font-serif tracking-wider pt-4 mb-6 text-center">
+          <p className="text-sm md:text-md text-muted-foreground/80 font-serif tracking-wider pt-4 mb-6 text-center">
             Our hotels are located in a vibrant neighbourhood <br /> near the
             center of Paralia!
           </p>
@@ -138,9 +149,15 @@ const Hero = () => {
                   <br />A land full of attractions and benefits for your
                   holidays!
                 </p>
-                <Button className="w-full">
-                  <Link href="/destinations">Read More</Link>
-                </Button>
+                <Link
+                  href="/destinations"
+                  className={
+                    buttonVariants() +
+                    "w-full px-10 hover:scale-105 transition-all duration-300"
+                  }
+                >
+                  More about Paralia
+                </Link>
               </div>
             </CardContent>
           </Card>
@@ -167,9 +184,15 @@ const Hero = () => {
                   <br />
                   We have it all!
                 </p>
-                <Button className="w-full">
-                  <Link href="/destinations">Explore Destinations</Link>
-                </Button>
+                <Link
+                  href="/destinations"
+                  className={
+                    buttonVariants() +
+                    "w-full px-10 hover:scale-105 transition-all duration-300"
+                  }
+                >
+                  Nearby Destinations
+                </Link>
               </div>
             </CardContent>
           </Card>
@@ -196,9 +219,16 @@ const Hero = () => {
                   <br />
                   Just under 100 meters from the beach!
                 </p>
-                <Button className="w-full">
-                  <Link href="/contact">Find Us</Link>
-                </Button>
+                <Link
+                  href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
+                  className={
+                    buttonVariants() +
+                    "w-full px-10 hover:scale-105 transition-all duration-300"
+                  }
+                  target="_blank"
+                >
+                  Find us on Google Maps
+                </Link>
               </div>
             </CardContent>
           </Card>

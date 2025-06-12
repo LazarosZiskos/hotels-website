@@ -12,10 +12,10 @@ export default function page() {
       <section className="py-10 px-4">
         <div className="">
           <div className="text-center mb-16">
-            <h1 className="text-4xl md:text-7xl text-foreground mb-6">
+            <h1 className="text-3xl md:text-6xl text-foreground mb-6">
               Explore Destinations
             </h1>
-            <p className="text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-muted-foreground text-sm md:text-md max-w-2xl mx-auto">
               Discover breathtaking locations near our hotels, from historic
               landmarks to natural wonders and exciting attractions.
             </p>
@@ -45,7 +45,7 @@ export default function page() {
                     <h2 className="text-3xl tracking-wide text-card-foreground mb-4">
                       {destination.name}
                     </h2>
-                    <p className="body-md text-muted-foreground font-serif mb-6">
+                    <p className="body-md text-sm md:text-md text-muted-foreground font-serif mb-6">
                       {destination.description}
                     </p>
 
@@ -53,7 +53,9 @@ export default function page() {
                       <div className="flex items-start space-x-3">
                         <MapPin className="w-5 text-amber-400 h-5 mt-1" />
                         <div>
-                          <p className="">Distance from our hotels:</p>
+                          <p className="font-semibold">
+                            Distance from our hotels:
+                          </p>
                           <p className="text-muted-foreground text-sm">
                             Hotel Hellas: {destination.distance.hotelHellas}
                           </p>
