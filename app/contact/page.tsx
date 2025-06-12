@@ -23,7 +23,7 @@ export default function page() {
           <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="heading-sm text-card-foreground">
+                <CardTitle className="text-xl text-card-foreground">
                   Send us a Message
                 </CardTitle>
               </CardHeader>
@@ -46,7 +46,7 @@ export default function page() {
                     placeholder="john@example.com"
                   />
                 </div>
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <Label htmlFor="phone">Phone</Label>
                   <Input
                     id="phone"
@@ -61,7 +61,7 @@ export default function page() {
                     <option value="hotel-hellas">Hotel Hellas</option>
                     <option value="hotel-gl">Hotel GL</option>
                   </select>
-                </div>
+                </div> */}
                 <div className="space-y-2">
                   <Label htmlFor="message">Message</Label>
                   <Textarea
@@ -76,7 +76,6 @@ export default function page() {
               </CardContent>
             </Card>
 
-            {/* Contact Information */}
             <div className="space-y-8">
               <Card className="border-0 shadow-xl">
                 <CardContent className="p-8">
@@ -118,7 +117,7 @@ export default function page() {
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-xl py-10">
+              <Card className="border-0 shadow-xl py-12">
                 <CardHeader>
                   <CardTitle className="heading-sm text-card-foreground">
                     Hotel Locations
