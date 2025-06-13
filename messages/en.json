@@ -70,5 +70,99 @@
         "description": "On-site buffet restaurant serving local and international cuisine (for group bookings)."
       }
     }
+  },
+  "gl": {
+    "subtitle1": "Stay at our elegant hotel in the lively heart of the city. Hotel GL features rooms tailored for every traveler, whether you are exploring solo, as a couple, or with family.",
+    "rating": "Guest Rating",
+    "gl-btn": "Book Now",
+    "accomodation-title": "Accomodation",
+    "accomodation1": "Choose from our confortable double, triple and quadruple rooms. ",
+    "accomodation2": "We offer street view and mountain view rooms.",
+    "double": "Double Rooms",
+    "triple": "Triple Rooms",
+    "quad": "Quadruple Rooms"
+  },
+  "Destinations": {
+    "title": "Explore Destinations",
+    "subtitle": "Discover breathtaking locations near our hotels, from historic landmarks to natural wonders and exciting attractions.",
+    "featured": "Featured Destination",
+    "distance": {
+      "title": "Distance from our hotels:",
+      "hellas": "Hotel Hellas",
+      "gl": "Hotel GL"
+    },
+    "activities": {
+      "title": "Recommended Activities",
+      "hiking": "Hiking",
+      "climbing": "Mountain Climbing",
+      "photography": "Nature Photography",
+      "mythology": "Mythology Tours",
+      "beach": "Beach Relaxation",
+      "waterSports": "Water Sports",
+      "islandHopping": "Island Hopping",
+      "seafood": "Seafood Dining",
+      "monastery": "Monastery Tours",
+      "rockClimbing": "Rock Climbing",
+      "sunset": "Sunset Viewing",
+      "history": "Historical Tours",
+      "shopping": "Shopping",
+      "culinary": "Culinary Experiences",
+      "culture": "Cultural Events",
+      "archaeology": "Archaeological Sites",
+      "museums": "Museum Visits",
+      "urban": "Urban Exploration",
+      "dining": "Traditional Dining",
+      "slides": "Water Slides",
+      "pools": "Wave Pools",
+      "family": "Family Activities",
+      "relaxation": "Relaxation Areas"
+    },
+    "olympus": {
+      "name": "Mount Olympus",
+      "description": "The legendary home of the Greek gods, Mount Olympus is Greece's highest mountain and a paradise for hikers and nature lovers. Explore ancient trails through diverse ecosystems and experience breathtaking views from the peaks that touch the clouds."
+    },
+    "skiathos": {
+      "name": "Skiathos",
+      "description": "This stunning island in the Aegean Sea boasts some of Greece's most beautiful beaches with crystal-clear turquoise waters. Enjoy the perfect blend of relaxation and vibrant nightlife in this picturesque island paradise."
+    },
+    "meteora": {
+      "name": "Meteora",
+      "description": "A UNESCO World Heritage site featuring spectacular monasteries perched atop massive rock formations. This geological wonder offers a unique spiritual experience combined with stunning natural beauty and rich history."
+    },
+    "thessaloniki": {
+      "name": "Thessaloniki",
+      "description": "Greece's vibrant second city blends rich history with modern urban culture. Explore Byzantine landmarks, stroll along the beautiful waterfront promenade, and indulge in the city's renowned culinary scene and nightlife."
+    },
+    "athens": {
+      "name": "Athens",
+      "description": "The historic capital of Greece offers an unparalleled journey through ancient civilization. Visit the iconic Acropolis, explore world-class museums, and experience the dynamic contrast between ancient heritage and contemporary Greek life."
+    },
+    "waterland": {
+      "name": "Waterland",
+      "description": "Greece's premier water park offers refreshing fun for visitors of all ages. Enjoy thrilling water slides, relaxing pools, and family-friendly attractions in this perfect summer destination for cooling off and creating memories."
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you plan the perfect summer experience. Reach out to our team for reservations, inquiries, or special requests.",
+    "form": {
+      "title": "Send us a Message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "firstNamePlaceholder": "John",
+      "lastNamePlaceholder": "Doe",
+      "message": "Message",
+      "messagePlaceholder": "Ask us about availability or anything else you like...",
+      "send": "Send Message"
+    },
+    "contact": {
+      "phone": "Phone",
+      "email": "Email",
+      "chat": "WhatsApp / Viber",
+      "textUs": "Text us"
+    },
+    "locations": {
+      "title": "Hotel Locations"
+    }
   }
 }

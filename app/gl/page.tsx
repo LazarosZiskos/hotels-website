@@ -4,11 +4,13 @@ import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { images } from "@/constants/constants";
 import { Star } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const page = () => {
+  const t = useTranslations("gl");
   return (
     <section className="pt-10">
       <div className="w-full h-full pt-4 min-h-screen max-w-6xl mx-auto ">
@@ -21,9 +23,7 @@ const page = () => {
               Hotel GL
             </h1>
             <p className="text-muted-foreground font-serif text-sm md:text-md text-center md:text-start  tracking-wider leading-8 md:w-[450px]">
-              Stay at our elegant hotel in the lively heart of the city. Hotel
-              GL features rooms tailored for every traveler, whether you are
-              exploring solo, as a couple, or with family.
+              {t("subtitle1")}
             </p>
             <div className="flex items-center pt-4">
               {[...Array(5)].map((_, i) => (
@@ -33,7 +33,7 @@ const page = () => {
                 />
               ))}
               <p className="pl-4 font-serif  text-muted-foreground tracking-wide">
-                4.7/5 Guest Rating
+                4.7/5 {t("rating")}
               </p>
             </div>
             <Link
@@ -43,7 +43,7 @@ const page = () => {
                 "md:mt-8 mt-6 mb-6 md:mb-0 w-[358px] md:w-[450px] hover:scale-105 duration-300 transition-all font-bold text-[18px]"
               }
             >
-              Book Now
+              {t("gl-btn")}
             </Link>
           </div>
           <div className="md:w-1/2 max-h-[500px] rounded-lg overflow-y-hidden">
@@ -59,31 +59,31 @@ const page = () => {
 
         <div className="mt-35 flex flex-col justify-center items-center gap-8 p-4">
           <h1 className="text-3xl md:text-6xl tracking-wider text-center">
-            Our Accomodation
+            {t("accomodation-title")}
           </h1>
           <p className="text-center text-sm md:text-md text-muted-foreground tracking-wider font-serif  leading-7">
-            Choose from our confortable double, triple and quadruple rooms.
+            {t("accomodation1")}
             <br />
-            We offer street view and mountain view rooms.
+            {t("accomodation2")}
           </p>
 
           <div className="flex items-center justify-center gap-8 mb-10">
             <div className="flex items-center justify-center gap-4">
               <div className="w-3 h-3 bg-amber-300 rounded-full"></div>
               <span className="text-muted-foreground font-serif  text-sm tracking-wide">
-                Double Rooms
+                {t("double")}
               </span>
             </div>
             <div className="flex items-center justify-center gap-4">
               <div className="w-3 h-3 bg-amber-800 rounded-full"></div>
               <span className="text-muted-foreground font-serif  text-sm tracking-wide">
-                Triple Rooms
+                {t("triple")}
               </span>
             </div>
             <div className="flex items-center justify-center gap-4">
               <div className="w-3 h-3 bg-amber-600 rounded-full"></div>
               <span className="text-muted-foreground font-serif  text-sm tracking-wide">
-                Quadruple Rooms
+                {t("quad")}
               </span>
             </div>
           </div>

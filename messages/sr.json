@@ -69,5 +69,100 @@
         "description": "Restoran sa bifeom koji nudi lokalnu i međunarodnu kuhinju (za grupne rezervacije)."
       }
     }
+  },
+  "gl": {
+    "subtitle1": "Odsednite u našem elegantnom hotelu u užurbanom srcu grada. Hotel GL nudi sobe prilagođene svakom putniku, bilo da putujete sami, u paru ili sa porodicom.",
+    "rating": "Ocena Gostiju",
+    "gl-btn": "Rezerviši Odmah",
+    "accomodation-title": "Smeštaj",
+    "accomodation1": "Izaberite između udobnih dvokrevetnih, trokrevetnih i četvorokrevetnih soba.",
+    "accomodation2": "Nudimo sobe sa pogledom na ulicu ili na planinu.",
+    "double": "Dvokrevetne Sobe",
+    "triple": "Trokrevetne Sobe",
+    "quad": "Četvorokrevetne Sobe"
+  },
+  "Destinations": {
+    "title": "Istražite Destinacije",
+    "subtitle": "Otkrijte zadivljujuće lokacije blizu naših hotela, od istorijskih znamenitosti do prirodnih čuda i uzbudljivih atrakcija.",
+    "featured": "Istaknuta Destinacija",
+    "distance": {
+      "title": "Udaljenost od naših hotela:",
+      "hellas": "Hotel Hellas",
+      "gl": "Hotel GL"
+    },
+    "activities": {
+      "title": "Preporučene Aktivnosti",
+      "hiking": "Planinarenje",
+      "climbing": "Penjanje na planine",
+      "photography": "Fotografisanje prirode",
+      "mythology": "Ture mitologije",
+      "beach": "Odmor na plaži",
+      "waterSports": "Vodeni sportovi",
+      "islandHopping": "Obilazak ostrva",
+      "seafood": "Plodovi mora",
+      "monastery": "Obilasci manastira",
+      "rockClimbing": "Penjanje po stenama",
+      "sunset": "Posmatranje zalaska sunca",
+      "history": "Istorijske ture",
+      "shopping": "Kupovina",
+      "culinary": "Gastronomska iskustva",
+      "culture": "Kulturni događaji",
+      "archaeology": "Arheološka nalazišta",
+      "museums": "Muzeji",
+      "urban": "Urbano istraživanje",
+      "dining": "Tradicionalna kuhinja",
+      "slides": "Tobogani",
+      "pools": "Bazeni sa talasima",
+      "family": "Porodične aktivnosti",
+      "relaxation": "Zone za relaksaciju"
+    },
+    "olympus": {
+      "name": "Planina Olimp",
+      "description": "Legendarni dom grčkih bogova i najviša planina u Grčkoj – raj za planinare i ljubitelje prirode."
+    },
+    "skiathos": {
+      "name": "Skiatos",
+      "description": "Predivno ostrvo u Egejskom moru sa tirkiznim morem, savršeno za opuštanje i bogat noćni život."
+    },
+    "meteora": {
+      "name": "Meteori",
+      "description": "UNESCO lokalitet sa manastirima na visokim stenama – spoj duhovnosti, istorije i prirode."
+    },
+    "thessaloniki": {
+      "name": "Solun",
+      "description": "Drugi najveći grad u Grčkoj sa bogatom istorijom, kulturom i fantastičnom kuhinjom."
+    },
+    "athens": {
+      "name": "Atina",
+      "description": "Glavni grad Grčke sa Akropoljem i savršen spoj drevne istorije i modernog života."
+    },
+    "waterland": {
+      "name": "Waterland",
+      "description": "Najveći vodeni park u Grčkoj – idealan za porodice, sa toboganima i zonama za opuštanje."
+    }
+  },
+
+  "Contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Tu smo da vam pomognemo da isplanirate savršeno letovanje. Obratite se našem timu za rezervacije, upite ili posebne zahteve.",
+    "form": {
+      "title": "Pošaljite nam poruku",
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "firstNamePlaceholder": "Marko",
+      "lastNamePlaceholder": "Petrović",
+      "message": "Poruka",
+      "messagePlaceholder": "Pitajte nas o dostupnosti ili bilo čemu drugom...",
+      "send": "Pošalji Poruku"
+    },
+    "contact": {
+      "phone": "Telefon",
+      "email": "Email",
+      "chat": "WhatsApp / Viber",
+      "textUs": "Pošaljite poruku"
+    },
+    "locations": {
+      "title": "Lokacije Hotela"
+    }
   }
 }

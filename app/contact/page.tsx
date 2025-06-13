@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -6,18 +9,19 @@ import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
 import Link from "next/link";
 
-export default function page() {
+export default function ContactPage() {
+  const t = useTranslations("Contact");
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-muted to-background">
       <section className="py-10 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-6xl text-foreground mb-6">
-              Contact Us
+              {t("title")}
             </h1>
             <p className="body-lg text-muted-foreground font-serif max-w-2xl mx-auto">
-              We are here to help you plan the perfect summer experience. Reach
-              out to our team for reservations, inquiries, or special requests.
+              {t("subtitle")}
             </p>
           </div>
 
@@ -25,18 +29,24 @@ export default function page() {
             <Card className="border-0 shadow-xl">
               <CardHeader>
                 <CardTitle className="text-xl text-card-foreground">
-                  Send us a Message
+                  {t("form.title")}
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <Label htmlFor="firstName">First Name</Label>
-                    <Input id="firstName" placeholder="John" />
+                    <Label htmlFor="firstName">{t("form.firstName")}</Label>
+                    <Input
+                      id="firstName"
+                      placeholder={t("form.firstNamePlaceholder")}
+                    />
                   </div>
                   <div className="space-y-2">
-                    <Label htmlFor="lastName">Last Name</Label>
-                    <Input id="lastName" placeholder="Doe" />
+                    <Label htmlFor="lastName">{t("form.lastName")}</Label>
+                    <Input
+                      id="lastName"
+                      placeholder={t("form.lastNamePlaceholder")}
+                    />
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -47,124 +57,59 @@ export default function page() {
                     placeholder="john@example.com"
                   />
                 </div>
-                {/* <div className="space-y-2">
-                  <Label htmlFor="phone">Phone</Label>
-                  <Input
-                    id="phone"
-                    type="tel"
-                    placeholder="+1 (555) 123-4567"
-                  />
-                </div>
                 <div className="space-y-2">
-                  <Label htmlFor="hotel">Preferred Hotel</Label>
-                  <select className="w-full p-3 border border-border rounded-md bg-background">
-                    <option value="">Select a hotel</option>
-                    <option value="hotel-hellas">Hotel Hellas</option>
-                    <option value="hotel-gl">Hotel GL</option>
-                  </select>
-                </div> */}
-                <div className="space-y-2">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">{t("form.message")}</Label>
                   <Textarea
                     id="message"
-                    placeholder="Ask us about availability or anything else you like..."
+                    placeholder={t("form.messagePlaceholder")}
                     rows={5}
                   />
                 </div>
-                <Button className="w-full bg-primary cursor-pointer hover:scale-105 transition-all duration-300 text-black  py-3 text-lg">
-                  Send Message
+                <Button className="w-full bg-primary text-black py-3 text-lg">
+                  {t("form.send")}
                 </Button>
               </CardContent>
             </Card>
 
             <div className="space-y-8">
               <Card className="border-0 shadow-xl">
-                <CardContent className="p-8">
-                  <div className="flex items-center space-x-4 mb-6">
-                    <Link
-                      href="tel:00302351062571"
-                      target="_blank"
-                      className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
-                    >
-                      <Phone className="w-6 h-6 text-background" />
-                    </Link>
-                    <div>
-                      <h3 className="text-lg font-heading font-light text-card-foreground">
-                        Phone
-                      </h3>
-                      <p className="text-muted-foreground">+30 23510 62571</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center space-x-4 mb-6">
-                    <Link
-                      href="mailto:info@hotel-gl.gr"
-                      target="_blank"
-                      className="w-12 h-12 bg-primary rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
-                    >
-                      <Mail className="w-6 h-6 text-primary-foreground" />
-                    </Link>
-                    <div>
-                      <h3 className="text-lg font-heading font-light text-card-foreground">
-                        Email
-                      </h3>
-                      <p className="text-muted-foreground">info@hotel-gl.gr</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center space-x-4">
-                    <Link
-                      href="tel:00306976103679"
-                      className="w-12 h-12 bg-accent-foreground rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
-                      target="_blank"
-                    >
-                      <Smartphone className="w-6 h-6 text-background" />
-                    </Link>
-                    <div>
-                      <h3 className="text-lg font-heading font-light text-card-foreground">
-                        WhatsApp / Viber
-                      </h3>
-                      <p className="text-muted-foreground">Text us</p>
-                    </div>
-                  </div>
+                <CardContent className="p-8 text-primary">
+                  <ContactItem
+                    icon={<Phone />}
+                    title={t("contact.phone")}
+                    value="+30 23510 62571"
+                    href="tel:00302351062571"
+                  />
+                  <ContactItem
+                    icon={<Mail />}
+                    title={t("contact.email")}
+                    value="info@hotel-gl.gr"
+                    href="mailto:info@hotel-gl.gr"
+                  />
+                  <ContactItem
+                    icon={<Smartphone />}
+                    title={t("contact.chat")}
+                    value={t("contact.textUs")}
+                    href="tel:00306976103679"
+                  />
                 </CardContent>
               </Card>
 
               <Card className="border-0 shadow-xl py-12">
                 <CardHeader>
-                  <CardTitle className="heading-sm text-card-foreground">
-                    Hotel Locations
+                  <CardTitle className="text-card-foreground">
+                    {t("locations.title")}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                  <Link
-                    href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
-                    className="flex items-start space-x-4 hover:scale-105 transition-all duration-300"
-                    target="_blank"
-                  >
-                    <MapPin className="w-5 h-5 text-muted-foreground mt-1" />
-                    <div>
-                      <h4 className="font-heading font-medium text-card-foreground">
-                        Hotel Hellas
-                      </h4>
-                      <p className="text-muted-foreground text-sm">
-                        Thrakis 1, Paralia Katerini Greece, 60100
-                      </p>
-                    </div>
-                  </Link>
-                  <Link
-                    href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
-                    target="_blank"
-                    className="flex items-start space-x-4 hover:scale-105 transition-all duration-300"
-                  >
-                    <MapPin className="w-5 h-5 text-muted-foreground mt-1" />
-                    <div>
-                      <h4 className="font-heading font-medium text-card-foreground">
-                        Hotel GL
-                      </h4>
-                      <p className="text-muted-foreground text-sm">
-                        Thrakis 2, Paralia Katerini Greece, 60100
-                      </p>
-                    </div>
-                  </Link>
+                  <HotelLocation
+                    name="Hotel Hellas"
+                    address="Thrakis 1, Paralia Katerini Greece, 60100"
+                  />
+                  <HotelLocation
+                    name="Hotel GL"
+                    address="Thrakis 2, Paralia Katerini Greece, 60100"
+                  />
                 </CardContent>
               </Card>
             </div>
@@ -172,5 +117,53 @@ export default function page() {
         </div>
       </section>
     </div>
+  );
+}
+
+function ContactItem({
+  icon,
+  title,
+  value,
+  href,
+}: {
+  icon: React.ReactNode;
+  title: string;
+  value: string;
+  href: string;
+}) {
+  return (
+    <div className="flex items-center space-x-4 mb-6">
+      <Link
+        href={href}
+        target="_blank"
+        className="w-12 h-12 bg-foreground rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300"
+      >
+        {icon}
+      </Link>
+      <div>
+        <h3 className="text-lg font-heading font-light text-card-foreground">
+          {title}
+        </h3>
+        <p className="text-muted-foreground">{value}</p>
+      </div>
+    </div>
+  );
+}
+
+function HotelLocation({ name, address }: { name: string; address: string }) {
+  return (
+    <Link
+      href="https://www.google.com/maps/dir//40.2684934,22.5962151"
+      className="flex items-start space-x-4 hover:scale-105 transition-all duration-300"
+      target="_blank"
+    >
+      <MapPin className="w-5 h-5 text-muted-foreground mt-1" />
+      <div>
+        <h4 className="font-heading font-medium text-card-foreground">
+          {name}
+        </h4>
+        <p className="text-muted-foreground text-sm">{address}</p>
+      </div>
+    </Link>
   );
 }
