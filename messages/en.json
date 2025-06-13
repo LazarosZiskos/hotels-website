@@ -29,5 +29,46 @@
     "location-desc2": "In a vibrant neighbourhood full of hotels, restaurants and shops. ",
     "location-desc3": "Just under 100 meters from the beach!",
     "location-btn": "Find us on Google Maps"
+  },
+  "hellas": {
+    "subtitle1": "Experience our beautiful hotel located in the heart of the city. Hotel Hellas a variety of rooms for all categories of travellers from solo travelers, couples and families.",
+    "rating": "Guest Rating",
+    "hellas-btn": "Book Now",
+    "accomodation-title": "Our Accomodation",
+    "accomodation1": "Choose from our confortable double, triple and quadruple rooms. ",
+    "accomodation2": "We offer street view and mountain view rooms.",
+    "double": "Double Rooms",
+    "triple": "Triple Rooms",
+    "quad": "Quadruple Rooms"
+  },
+
+  "Amenities": {
+    "title": "Hotel Amenities",
+    "items": {
+      "wifi": {
+        "title": "Free Wifi",
+        "description": "Free high-speed internet access throughout the hotel."
+      },
+      "storage": {
+        "title": "Luggage Storage",
+        "description": "Secure luggage storage service for your convenience."
+      },
+      "reception": {
+        "title": "Reception 24/7",
+        "description": "Round the clock front desk service and assistance."
+      },
+      "safetyBox": {
+        "title": "Safety Box",
+        "description": "Safety deposit box available in the facilities."
+      },
+      "cafeteria": {
+        "title": "Cafeteria",
+        "description": "Cozy cafeteria and bar services, ideal for a hot summer day."
+      },
+      "restaurant": {
+        "title": "Restaurant",
+        "description": "On-site buffet restaurant serving local and international cuisine (for group bookings)."
+      }
+    }
   }
 }

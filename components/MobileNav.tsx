@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
-import { MenuIcon, EarthIcon } from "lucide-react";
+import { MenuIcon, EarthIcon, Globe } from "lucide-react";
 import { navLinks } from "@/constants/constants";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -74,14 +74,8 @@ const MobileNav = () => {
                 onClick={() => setOpen(!open)}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50"
               >
-                🌐
-                <svg
-                  className="w-4 h-4 ml-1"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.587l3.71-4.357a.75.75 0 111.14.976l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z" />
-                </svg>
+                <Globe size={20} className="text-primary" />
+                <span className="uppercase">{locale}</span>
               </button>
 
               {open && (

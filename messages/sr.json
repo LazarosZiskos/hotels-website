@@ -29,5 +29,45 @@
     "location-desc2": "U živopisnom kvartu punom hotela, restorana i prodavnica. ",
     "location-desc3": "Na manje od 100 metara od plaže!",
     "location-btn": "Pronađite nas na Google Mapi"
+  },
+  "hellas": {
+    "subtitle1": "Iskusite naš prelepi hotel koji se nalazi u srcu grada. Hotel Hellas nudi raznovrsne sobe za sve kategorije putnika — od samostalnih putnika, parova do porodica.",
+    "rating": "Ocena Gostiju",
+    "hellas-btn": "Rezervišite Odmah",
+    "accomodation-title": "Naš Smeštaj",
+    "accomodation1": "Izaberite između udobnih dvokrevetnih, trokrevetnih i četvorokrevetnih soba. ",
+    "accomodation2": "Nudimo sobe sa pogledom na ulicu i na planinu.",
+    "double": "Dvokrevetne Sobe",
+    "triple": "Trokrevetne Sobe",
+    "quad": "Četvorokrevetne Sobe"
+  },
+  "Amenities": {
+    "title": "Hotelski Sadržaji",
+    "items": {
+      "wifi": {
+        "title": "Besplatan Wifi",
+        "description": "Besplatan internet velikih brzina dostupan u celom hotelu."
+      },
+      "storage": {
+        "title": "Ostava za prtljag",
+        "description": "Sigurna usluga čuvanja prtljaga za vašu udobnost."
+      },
+      "reception": {
+        "title": "Recepcija 24/7",
+        "description": "Recepcija i pomoć dostupni tokom celog dana."
+      },
+      "safetyBox": {
+        "title": "Sef",
+        "description": "Sef dostupan u okviru objekta."
+      },
+      "cafeteria": {
+        "title": "Kafe",
+        "description": "Prijatna kafeterija i bar — idealni za tople letnje dane."
+      },
+      "restaurant": {
+        "title": "Restoran",
+        "description": "Restoran sa bifeom koji nudi lokalnu i međunarodnu kuhinju (za grupne rezervacije)."
+      }
+    }
   }
 }

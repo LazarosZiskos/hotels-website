@@ -54,34 +54,27 @@ export const images = [
 export const amenities = [
   {
     icon: Wifi,
-    title: "Free Wifi",
-    description: "Free high-speed internet access throughout the hotel.",
+    key: "wifi",
   },
   {
     icon: Package,
-    title: "Luggage Storage",
-    description: "Secure luggage storage service for your convenience.",
+    key: "storage",
   },
   {
     icon: Clock,
-    title: "Reception 24/7",
-    description: "Round the clock front desk service and assistance.",
+    key: "reception",
   },
   {
     icon: Shield,
-    title: "Safety Box",
-    description: "Safety deposit box availabe in the facilities.",
+    key: "safetyBox",
   },
   {
     icon: Coffee,
-    title: "Cafeteria",
-    description: "Cozy cafeteria and bar services, ideal for a hot summer day.",
+    key: "cafeteria",
   },
   {
     icon: Utensils,
-    title: "Restaurant",
-    description:
-      "On-site buffet restaurant serving delicious local and international cuisine (for group bookings).",
+    key: "restaurant",
   },
 ];
 
