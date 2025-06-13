@@ -155,11 +155,8 @@ const Hero = () => {
                   {t("paralia-desc2")}
                 </p>
                 <Link
-                  href="/destinations"
-                  className={
-                    buttonVariants() +
-                    "w-full px-10 hover:scale-105 transition-all duration-300"
-                  }
+                  href="/paralia"
+                  className={buttonVariants() + "w-full px-10"}
                 >
                   {t("paralia-btn")}
                 </Link>

@@ -28,6 +28,29 @@ export const navLinks = [
   },
 ];
 
+export const paraliaImages = [
+  {
+    src: "/paralia1.avif",
+    alt: "paralia-photo",
+  },
+  {
+    src: "/paralia3.jpg",
+    alt: "paralia-photo",
+  },
+  {
+    src: "/paralia4.jpg",
+    alt: "paralia-photo",
+  },
+  {
+    src: "/paralia5.jpg",
+    alt: "paralia-photo",
+  },
+  {
+    src: "/paralia2.jpg",
+    alt: "paralia-photo",
+  },
+];
+
 export const images = [
   {
     src: "/gl1.jpeg",
