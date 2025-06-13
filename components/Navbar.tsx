@@ -1,12 +1,13 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { navLinks } from "@/constants/constants";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
-import { EarthIcon } from "lucide-react";
 import MobileNav from "./MobileNav";
+import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
 interface NavLinks {
   title: string;
@@ -15,7 +16,31 @@ interface NavLinks {
 }
 
 const Navbar = () => {
+  const [locale, setLocale] = useState<String>("");
   const pathname = usePathname();
+  const router = useRouter();
+
+  useEffect(() => {
+    const cookieLocale = document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("MYNEXTAPP_LOCALE="))
+      ?.split("=")[1];
+    if (cookieLocale) {
+      setLocale(cookieLocale);
+    } else {
+      const browserLocale = navigator.language.slice(0, 2);
+      setLocale(browserLocale);
+      document.cookie = `MYNEXTAPP_LOCALE=${browserLocale};`;
+      router.refresh();
+    }
+  }, [router]);
+
+  const changeLocale = (newLocale: string) => {
+    setLocale(newLocale);
+    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
+    router.refresh();
+  };
+
   return (
     <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
       <div className="hidden px-[100px] h-25 md:flex justify-between z-10">
@@ -44,8 +69,18 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-
-          <EarthIcon size={25} />
+          <Button
+            onClick={() => changeLocale("en")}
+            className={`${locale === "en" && "bg-white text-black"}`}
+          >
+            EN
+          </Button>
+          <Button
+            onClick={() => changeLocale("el")}
+            className={`${locale === "el" && "bg-white text-black"}`}
+          >
+            EL
+          </Button>
         </div>
       </div>
 

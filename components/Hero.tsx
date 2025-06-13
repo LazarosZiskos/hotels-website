@@ -6,8 +6,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import RotatingText from "./RotatingText";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("Homepage");
+
   return (
     <>
       <div className="w-full h-full min-h-screen">
@@ -35,11 +38,12 @@ const Hero = () => {
                     rotationInterval={3000}
                   />
                 </span>{" "}
-                from Paralia
+                {t("title1")}
               </h1>
               <p className="text-sm md:text-md text-muted-foreground/80 tracking-wider font-serif pt-4">
-                Choose from one of our three-star Hotels
-                <br /> and make this summer unforgetable!
+                {t("subtitle1")}
+                <br />
+                {t("subtitle2")}
               </p>
             </div>
           </div>
@@ -64,8 +68,9 @@ const Hero = () => {
                     Hotel Hellas
                   </h3>
                   <p className="text-center text-muted-foreground font-serif mb-6">
-                    A family hotel near the center of Paralia, <br /> to host
-                    all your favourite moments.
+                    {t("hellas-desc1")}
+                    <br />
+                    {t("hellas-desc2")}
                   </p>
 
                   <Link
@@ -75,7 +80,7 @@ const Hero = () => {
                       "w-full mb-4 px-10 hover:scale-105 transition-all duration-300"
                     }
                   >
-                    Explore Hotel Hellas
+                    {t("hellas-btn")}
                   </Link>
                 </div>
               </CardContent>
@@ -100,7 +105,8 @@ const Hero = () => {
                     Hotel GL
                   </h3>
                   <p className="text-center font-serif text-muted-foreground mb-6">
-                    The perfect balance between luxury <br /> and comfort
+                    {t("gl-desc1")}
+                    <br /> {t("gl-desc2")}
                   </p>
                   <Link
                     href="/gl"
@@ -109,7 +115,7 @@ const Hero = () => {
                       "w-full mb-4 px-10 hover:scale-105 transition-all duration-300"
                     }
                   >
-                    Explore Hotel GL
+                    {t("gl-btn")}
                   </Link>
                 </div>
               </CardContent>
@@ -121,11 +127,10 @@ const Hero = () => {
       <section className="pt-10 bg-[#F3F4F6] p-4 pb-10" id="location">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-7xl leading-[72px] tracking-wide mt-10">
-            LOCATION
+            {t("location")}
           </h1>
           <p className="text-sm md:text-md text-muted-foreground/80 font-serif tracking-wider pt-4 mb-6 text-center">
-            Our hotels are located in a vibrant neighbourhood <br /> near the
-            center of Paralia!
+            {t("location-sub1")} <br /> {t("location-sub2")}
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-10">
@@ -142,12 +147,12 @@ const Hero = () => {
             <CardContent>
               <div className="flex flex-col items-center justify-center mb-5 h-[220px]">
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
-                  Paralia
+                  {t("paralia-title")}
                 </h3>
                 <p className="text-center h-[144px] font-serif text-muted-foreground mb-6">
-                  Where the Mythical Olympus mountain meets the Aegean blue.
-                  <br />A land full of attractions and benefits for your
-                  holidays!
+                  {t("paralia-desc1")}
+                  <br />
+                  {t("paralia-desc2")}
                 </p>
                 <Link
                   href="/destinations"
@@ -156,7 +161,7 @@ const Hero = () => {
                     "w-full px-10 hover:scale-105 transition-all duration-300"
                   }
                 >
-                  More about Paralia
+                  {t("paralia-btn")}
                 </Link>
               </div>
             </CardContent>
@@ -175,14 +180,14 @@ const Hero = () => {
             <CardContent>
               <div className="flex flex-col items-center justify-center mb-5">
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
-                  Sightseeing
+                  {t("sightseeing-title")}
                 </h3>
                 <p className="text-center font-serif text-muted-foreground mb-6">
-                  Explore all greeks finest destinations.
+                  {t("sightseeing-desc1")}
                   <br />
-                  From Meteora, to Athens to many popular destinations nearby.
+                  {t("sightseeing-desc2")}
                   <br />
-                  We have it all!
+                  {t("sightseeing-desc3")}
                 </p>
                 <Link
                   href="/destinations"
@@ -191,7 +196,7 @@ const Hero = () => {
                     "w-full px-10 hover:scale-105 transition-all duration-300"
                   }
                 >
-                  Nearby Destinations
+                  {t("sightseeing-btn")}
                 </Link>
               </div>
             </CardContent>
@@ -209,15 +214,14 @@ const Hero = () => {
             <CardContent>
               <div className="flex flex-col items-center justify-center mb-5">
                 <h3 className="text-center text-2xl text-card-foreground mb-3">
-                  Our Location
+                  {t("location-title")}
                 </h3>
                 <p className="text-center text-muted-foreground font-serif mb-6">
-                  Located near the center of Paralia.
+                  {t("location-desc1")}
                   <br />
-                  In a vibrant neighbourhood full of hotels, restaurants and
-                  shops.
+                  {t("location-desc2")}
                   <br />
-                  Just under 100 meters from the beach!
+                  {t("location-desc3")}
                 </p>
                 <Link
                   href="https://www.google.com/maps/dir//40.2684934,22.5962151/@40.2684941,22.596043,20.57z/data=!4m2!4m1!3e0?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D"
@@ -227,7 +231,7 @@ const Hero = () => {
                   }
                   target="_blank"
                 >
-                  Find us on Google Maps
+                  {t("location-btn")}
                 </Link>
               </div>
             </CardContent>

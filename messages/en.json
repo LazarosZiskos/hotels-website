@@ -1,0 +1,33 @@
+{
+  "TabTitle": {
+    "home": "Welcome to Ziskos Hotels, Paralia"
+  },
+  "Homepage": {
+    "title1": "from Paralia",
+    "subtitle1": "Choose from one of our three-star Hotels",
+    "subtitle2": " and make this summer unforgetable!",
+    "hellas-desc1": "A family hotel near the center of Paralia,",
+    "hellas-desc2": " to host all your favourite moments.",
+    "hellas-btn": "Explore Hotel Hellas",
+    "gl-desc1": "The perfect balance between luxury ",
+    "gl-desc2": "and comfort",
+    "gl-btn": "Explore Hotel GL",
+    "location": "LOCATION",
+    "location-sub1": "Our hotels are located in a vibrant neighbourhood ",
+    "location-sub2": "near the center of Paralia!",
+    "paralia-title": "Paralia",
+    "paralia-desc1": "Where the Mythical Olympus mountain meets the Aegean blue. ",
+    "paralia-desc2": "A land full of attractions and benefits for your holidays!",
+    "paralia-btn": "More about Paralia",
+    "sightseeing-title": "Sightseeing",
+    "sightseeing-desc1": "Explore all greeks finest destinations. ",
+    "sightseeing-desc2": "From Meteora, to Athens to many popular destinations nearby.",
+    "sightseeing-desc3": "We have it all!",
+    "sightseeing-btn": "Nearby Destinations",
+    "location-title": "Our Location",
+    "location-desc1": "Located near the center of Paralia. ",
+    "location-desc2": "In a vibrant neighbourhood full of hotels, restaurants and shops. ",
+    "location-desc3": "Just under 100 meters from the beach!",
+    "location-btn": "Find us on Google Maps"
+  }
+}
