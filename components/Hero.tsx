@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-6xl">
               <h1 className="md:text-7xl text-4xl leading-[72px] md:w-[1000px] tracking-wide font-serif mt-10">
-                <span className="text-primary font-semibold">
+                <span className="text-blue-400 font-semibold">
                   <RotatingText
                     texts={[
                       "Καλημέρα",

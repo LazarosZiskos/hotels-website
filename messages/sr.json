@@ -1,0 +1,33 @@
+{
+  "TabTitle": {
+    "home": "Dobrodošli u Ziskos Hotels, Paralija"
+  },
+  "Homepage": {
+    "title1": "iz Paralije",
+    "subtitle1": "Izaberite jedan od naših hotela sa tri zvezdice",
+    "subtitle2": " i učinite ovo leto nezaboravnim!",
+    "hellas-desc1": "Porodični hotel u blizini centra Paralije,",
+    "hellas-desc2": " da ugosti sve vaše omiljene trenutke.",
+    "hellas-btn": "Istraži Hotel Hellas",
+    "gl-desc1": "Savršen balans između luksuza ",
+    "gl-desc2": "i udobnosti",
+    "gl-btn": "Istraži Hotel GL",
+    "location": "LOKACIJA",
+    "location-sub1": "Naši hoteli se nalaze u živopisnom kvartu ",
+    "location-sub2": "blizu centra Paralije!",
+    "paralia-title": "Paralija",
+    "paralia-desc1": "Gde se mitski Olimp susreće sa plavetnilom Egejskog mora. ",
+    "paralia-desc2": "Zemlja puna atrakcija i pogodnosti za vaš odmor!",
+    "paralia-btn": "Više o Paraliji",
+    "sightseeing-title": "Znamenitosti",
+    "sightseeing-desc1": "Istražite najlepše destinacije u Grčkoj. ",
+    "sightseeing-desc2": "Od Meteora, preko Atine do mnogih popularnih destinacija u blizini.",
+    "sightseeing-desc3": "Imamo sve!",
+    "sightseeing-btn": "Obližnje Destinacije",
+    "location-title": "Naša Lokacija",
+    "location-desc1": "Nalazimo se blizu centra Paralije. ",
+    "location-desc2": "U živopisnom kvartu punom hotela, restorana i prodavnica. ",
+    "location-desc3": "Na manje od 100 metara od plaže!",
+    "location-btn": "Pronađite nas na Google Mapi"
+  }
+}

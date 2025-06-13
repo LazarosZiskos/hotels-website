@@ -6,7 +6,6 @@ import { navLinks } from "@/constants/constants";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import MobileNav from "./MobileNav";
-import { Button } from "./ui/button";
 import { useRouter } from "next/navigation";
 
 interface NavLinks {
@@ -14,6 +13,13 @@ interface NavLinks {
   href: string;
   id: number;
 }
+
+const languages = [
+  { code: "en", label: "English", flag: "🇬🇧" },
+  { code: "el", label: "Ελληνικά", flag: "🇬🇷" },
+  { code: "sr", label: "Српски", flag: "🇷🇸" },
+  { code: "uk", label: "Українська", flag: "🇺🇦" },
+];
 
 const Navbar = () => {
   const [locale, setLocale] = useState<String>("");
@@ -40,6 +46,7 @@ const Navbar = () => {
     document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
     router.refresh();
   };
+  const [open, setOpen] = useState(false);
 
   return (
     <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
@@ -69,18 +76,41 @@ const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <Button
-            onClick={() => changeLocale("en")}
-            className={`${locale === "en" && "bg-white text-black"}`}
+        </div>
+        <div className="relative inline-block top-7 text-right">
+          <button
+            onClick={() => setOpen(!open)}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50"
           >
-            EN
-          </Button>
-          <Button
-            onClick={() => changeLocale("el")}
-            className={`${locale === "el" && "bg-white text-black"}`}
-          >
-            EL
-          </Button>
+            🌐
+            <svg
+              className="w-4 h-4 ml-1"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.587l3.71-4.357a.75.75 0 111.14.976l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z" />
+            </svg>
+          </button>
+
+          {open && (
+            <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
+              {languages.map((lang) => (
+                <li
+                  key={lang.code}
+                  onClick={() => {
+                    changeLocale(lang.code);
+                    setOpen(false);
+                  }}
+                  className={`${
+                    locale === lang.code && "text-primary"
+                  } + "cursor-pointer px-4 py-2 hover:bg-gray-100 flex items-center gap-2"`}
+                >
+                  <span>{lang.flag}</span>
+                  <span>{lang.label}</span>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
 
@@ -98,5 +128,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-//"text-muted-foreground hover:text-foreground font-light transition-colors"
