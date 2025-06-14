@@ -9,6 +9,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+interface RoomType {
+  src: string;
+  title: string;
+  btnTitle: string;
+  alt: string;
+  description: string;
+  href: string;
+}
+
 const HellasRoute = () => {
   const t = useTranslations("hellas");
   return (
@@ -95,8 +104,8 @@ const HellasRoute = () => {
           </div>
           {/* <PhotoCarousel images={images} /> */}
           <div className="grid gap-8 md:grid-cols-2">
-            {roomTypes.map((type: any) => (
-              <div key={type.title} className="">
+            {roomTypes.map((type: RoomType, index) => (
+              <div key={index} className="">
                 <RoomCard
                   src={type.src}
                   title={type.title}

@@ -81,9 +81,8 @@ const MobileNav = () => {
               {open && (
                 <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
                   {languages.map((lang, index) => (
-                    <SheetClose>
+                    <SheetClose key={index}>
                       <li
-                        key={index}
                         onClick={() => {
                           changeLocale(lang.code);
                           setOpen(false);
