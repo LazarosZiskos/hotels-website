@@ -22,7 +22,7 @@ const languages = [
 
 const MobileNav = () => {
   const pathname = usePathname();
-  const [locale, setLocale] = useState<String>("");
+  const [locale, setLocale] = useState<string>("");
   const router = useRouter();
 
   useEffect(() => {
@@ -80,10 +80,10 @@ const MobileNav = () => {
 
               {open && (
                 <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
-                  {languages.map((lang) => (
+                  {languages.map((lang, index) => (
                     <SheetClose>
                       <li
-                        key={lang.code}
+                        key={index}
                         onClick={() => {
                           changeLocale(lang.code);
                           setOpen(false);

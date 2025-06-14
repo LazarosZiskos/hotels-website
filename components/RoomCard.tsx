@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent } from "./ui/card";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";

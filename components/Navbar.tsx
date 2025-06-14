@@ -23,7 +23,7 @@ const languages = [
 ];
 
 const Navbar = () => {
-  const [locale, setLocale] = useState<String>("");
+  const [locale, setLocale] = useState<string>("");
   const pathname = usePathname();
   const router = useRouter();
 
@@ -89,9 +89,9 @@ const Navbar = () => {
 
           {open && (
             <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
-              {languages.map((lang) => (
+              {languages.map((lang, index) => (
                 <li
-                  key={lang.code}
+                  key={index}
                   onClick={() => {
                     changeLocale(lang.code);
                     setOpen(false);
