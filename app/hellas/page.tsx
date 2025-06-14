@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const hellasRoute = () => {
+const HellasRoute = () => {
   const t = useTranslations("hellas");
   return (
     <section className=" pt-10">
@@ -97,4 +97,4 @@ const hellasRoute = () => {
   );
 };
 
-export default hellasRoute;
+export default HellasRoute;

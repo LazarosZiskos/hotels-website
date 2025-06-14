@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
-import { MenuIcon, EarthIcon, Globe } from "lucide-react";
+import { MenuIcon, Globe } from "lucide-react";
 import { navLinks } from "@/constants/constants";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";

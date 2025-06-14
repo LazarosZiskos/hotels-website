@@ -50,7 +50,7 @@ const page = () => {
           <ul className="grid md:grid-cols-3 gap-2">
             {facilities.map((item: Facilities) => (
               <li key={item.text} className="flex gap-2">
-                <CheckCheck className="text-primary" />
+                <CheckCheck className="text-primary/50" />
                 {item.text}
               </li>
             ))}

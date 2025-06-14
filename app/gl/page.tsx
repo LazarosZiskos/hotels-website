@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const glRoute = () => {
+const GlRoute = () => {
   const t = useTranslations("gl");
   return (
     <section className="pt-10">
@@ -97,4 +97,4 @@ const glRoute = () => {
   );
 };
 
-export default glRoute;
+export default GlRoute;
