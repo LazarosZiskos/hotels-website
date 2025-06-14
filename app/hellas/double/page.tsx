@@ -1,7 +1,6 @@
 import PhotoCarousel from "@/components/PhotoCarousel";
 import { facilities, images } from "@/constants/constants";
-import { Check, CheckCheck } from "lucide-react";
-import Image from "next/image";
+import { CheckCheck } from "lucide-react";
 import React from "react";
 
 interface Facilities {

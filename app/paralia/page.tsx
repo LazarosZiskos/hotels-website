@@ -9,7 +9,7 @@ import { paraliaImages } from "@/constants/constants";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const Page = () => {
+const ParaliaRoute = () => {
   const t = useTranslations("paralia");
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -64,4 +64,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default ParaliaRoute;
