@@ -37,6 +37,7 @@
     "accomodation-title": "Accomodation",
     "accomodation1": "Choose from our confortable double, triple and quadruple rooms. ",
     "accomodation2": "We offer street view and mountain view rooms.",
+    "single": "Single Rooms",
     "double": "Double Rooms",
     "triple": "Triple Rooms",
     "quad": "Quadruple Rooms"
@@ -78,6 +79,8 @@
     "accomodation-title": "Accomodation",
     "accomodation1": "Choose from our confortable double, triple and quadruple rooms. ",
     "accomodation2": "We offer street view and mountain view rooms.",
+    "single": "Single Rooms",
+
     "double": "Double Rooms",
     "triple": "Triple Rooms",
     "quad": "Quadruple Rooms"

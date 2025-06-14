@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 const Amenities = () => {
   const t = useTranslations("Amenities");
   return (
-    <div className="mt-30">
+    <div className="mt-30 max-w-6xl mx-auto">
       <h1 className="text-3xl md:text-6xl text-center tracking-wide">
         {t("title")}
       </h1>
@@ -17,8 +17,8 @@ const Amenities = () => {
               key={idx}
               className="flex flex-col justify-center items-center gap-8 shadow-xl hover:shadow-2xl border-0 rounded-md"
             >
-              <div className="rounded-full bg-black p-6 text-center">
-                <Icon className="w-8 h-8 mt-1 text-primary" />
+              <div className="rounded-full bg-white border shadow-xl p-4 text-center">
+                <Icon className="icon text-primary" />
               </div>
 
               <h2 className="text-2xl tracking-wide">

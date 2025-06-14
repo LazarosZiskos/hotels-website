@@ -37,6 +37,8 @@
     "accomodation-title": "Naš Smeštaj",
     "accomodation1": "Izaberite između udobnih dvokrevetnih, trokrevetnih i četvorokrevetnih soba. ",
     "accomodation2": "Nudimo sobe sa pogledom na ulicu i na planinu.",
+    "single": "Jednokrevetne Sobe",
+
     "double": "Dvokrevetne Sobe",
     "triple": "Trokrevetne Sobe",
     "quad": "Četvorokrevetne Sobe"
@@ -77,6 +79,7 @@
     "accomodation-title": "Smeštaj",
     "accomodation1": "Izaberite između udobnih dvokrevetnih, trokrevetnih i četvorokrevetnih soba.",
     "accomodation2": "Nudimo sobe sa pogledom na ulicu ili na planinu.",
+    "single": "Jednokrevetne Sobe",
     "double": "Dvokrevetne Sobe",
     "triple": "Trokrevetne Sobe",
     "quad": "Četvorokrevetne Sobe"

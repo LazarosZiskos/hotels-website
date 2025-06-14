@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <>
       <div className="w-full h-full min-h-screen">
-        <section className=" p-4 pb-10">
+        <section className=" p-4">
           <div className="flex flex-col items-center justify-center">
             <div className="text-center max-w-6xl">
               <h1 className="md:text-7xl text-4xl leading-[72px] md:w-[1000px] tracking-wide font-serif mt-10">
@@ -123,8 +123,15 @@ const Hero = () => {
           </div>
         </section>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F3F4F6"
+          fill-opacity="1"
+          d="M0,192L34.3,192C68.6,192,137,192,206,202.7C274.3,213,343,235,411,250.7C480,267,549,277,617,261.3C685.7,245,754,203,823,181.3C891.4,160,960,160,1029,160C1097.1,160,1166,160,1234,138.7C1302.9,117,1371,75,1406,53.3L1440,32L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
 
-      <section className="pt-10 bg-[#F3F4F6] p-4 pb-10" id="location">
+      <section className="pt-10 bg-[#F3F4F6]" id="location">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-3xl md:text-7xl leading-[72px] tracking-wide mt-10">
             {t("location")}
@@ -234,6 +241,13 @@ const Hero = () => {
             </CardContent>
           </Card>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#262626"
+            fill-opacity="1"
+            d="M0,256L60,261.3C120,267,240,277,360,277.3C480,277,600,267,720,229.3C840,192,960,128,1080,112C1200,96,1320,128,1380,144L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
       </section>
     </>
   );

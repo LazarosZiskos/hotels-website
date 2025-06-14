@@ -173,3 +173,44 @@ export const facilities = [
   { text: "Satelite" },
   { text: "Balcony" },
 ];
+
+export const roomTypes = [
+  {
+    src: "/hellas1.jpg",
+    title: "Single Room",
+    btnTitle: "View more..",
+    alt: "single-room",
+    description:
+      "Single room designed for solo travelers. Offers a cozy retreat with a large bed and calming atmosphere, ideal for resting after a full day of sun and sea.",
+
+    href: "/hellas/single",
+  },
+  {
+    src: "/hellas1.jpg",
+    title: "Double Room",
+    btnTitle: "View more..",
+    alt: "double-room",
+    description:
+      "Double room ideal for couples or friends. It comes with either two single beds or one large bed, perfect for relaxing after a day of exploring or enjoying the sun.",
+
+    href: "/hellas/double",
+  },
+  {
+    src: "/hellas1.jpg",
+    title: "Triple Room",
+    btnTitle: "View more..",
+    alt: "triple-room",
+    description:
+      "Triple room designed for small groups or families. Features a combination of beds to suit your needs, offering space and comfort after a full day of seaside adventures.",
+    href: "/hellas/triple",
+  },
+  {
+    src: "/hellas1.jpg",
+    title: "Family Room",
+    btnTitle: "View more..",
+    alt: "quadruple-room",
+    description:
+      "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it's your ideal base for a fun-filled holiday together.",
+    href: "/hellas/quadruple",
+  },
+];

@@ -1,8 +1,9 @@
 import Amenities from "@/components/Amenities";
 import PhotoCarousel from "@/components/PhotoCarousel";
+import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { images } from "@/constants/constants";
+import { images, roomTypes } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -12,8 +13,8 @@ import React from "react";
 const HellasRoute = () => {
   const t = useTranslations("hellas");
   return (
-    <section className=" pt-10">
-      <div className="w-full h-full pt-4 min-h-screen max-w-6xl mx-auto ">
+    <section className="pt-10">
+      <div className=" bg-white w-full h-full min-h-screen pt-4 max-w-6xl mx-auto ">
         <div className="flex flex-col justify-center md:flex md:flex-row md:justify-between items-center px-4">
           <div className="flex flex-col items-center md:items-start justify-between md:h-full gap-4 md:gap-8 ">
             <Badge className="font-bold mb-2 font-serif bg-amber-200 text-black">
@@ -69,6 +70,12 @@ const HellasRoute = () => {
 
           <div className="flex items-center justify-center gap-8 mb-10">
             <div className="flex items-center justify-center gap-4">
+              <div className="w-3 h-3 bg-amber-100 rounded-full"></div>
+              <span className="text-muted-foreground font-serif  text-sm tracking-wide">
+                {t("single")}
+              </span>
+            </div>
+            <div className="flex items-center justify-center gap-4">
               <div className="w-3 h-3 bg-amber-300 rounded-full"></div>
               <span className="text-muted-foreground font-serif  text-sm tracking-wide">
                 {t("double")}
@@ -87,11 +94,25 @@ const HellasRoute = () => {
               </span>
             </div>
           </div>
-          <PhotoCarousel images={images} />
+          {/* <PhotoCarousel images={images} /> */}
+          <div className="grid gap-8 md:grid-cols-2">
+            {roomTypes.map((type: any) => (
+              <div key={type.title} className="">
+                <RoomCard
+                  src={type.src}
+                  title={type.title}
+                  btnTitle={type.btnTitle}
+                  alt={type.alt}
+                  description={type.description}
+                  href={type.href}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="p-4">
-          <Amenities />
-        </div>
+      </div>
+      <div className="p-4">
+        <Amenities />
       </div>
     </section>
   );
