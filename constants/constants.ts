@@ -157,3 +157,19 @@ export const destinations = [
     activities: ["slides", "pools", "family", "relaxation"],
   },
 ];
+
+export const facilities = [
+  {
+    text: "Free Wi-Fi",
+  },
+  {
+    text: "32' TV",
+  },
+  { text: "En-suite Bathroom" },
+  { text: "Large Bed" },
+  { text: "Fully Equipped Kitchenette" },
+  { text: "Hair Dryer" },
+  { text: "Air Conditioning/Heating" },
+  { text: "Satelite" },
+  { text: "Balcony" },
+];
