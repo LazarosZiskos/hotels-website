@@ -15,7 +15,6 @@ export default function LanguageDropdown() {
   const router = useRouter();
 
   const changeLanguage = (code: string) => {
-    // Example assuming locale-based routing, e.g., /el/about
     const path = window.location.pathname;
     const segments = path.split("/");
     segments[1] = code;
@@ -36,9 +35,9 @@ export default function LanguageDropdown() {
 
       {open && (
         <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
-          {languages.map((lang) => (
+          {languages.map((lang, idx) => (
             <li
-              key={lang.code}
+              key={idx}
               onClick={() => {
                 changeLanguage(lang.code);
                 setOpen(false);

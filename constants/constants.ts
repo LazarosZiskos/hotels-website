@@ -210,7 +210,7 @@ export const roomTypes = [
     btnTitle: "View more..",
     alt: "quadruple-room",
     description:
-      "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it's your ideal base for a fun-filled holiday together.",
+      "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it is your ideal base for a fun-filled holiday together.",
     href: "/hellas/quadruple",
   },
 ];

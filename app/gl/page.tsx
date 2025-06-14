@@ -1,5 +1,4 @@
 import Amenities from "@/components/Amenities";
-import PhotoCarousel from "@/components/PhotoCarousel";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
@@ -96,8 +95,8 @@ const GlRoute = () => {
           </div>
           {/* <PhotoCarousel images={images} /> */}
           <div className="grid gap-8 md:grid-cols-2">
-            {roomTypes.map((type: any) => (
-              <div key={type.title} className="">
+            {roomTypes.map((type: any, index) => (
+              <div key={index} className="">
                 <RoomCard
                   src={type.src}
                   title={type.title}

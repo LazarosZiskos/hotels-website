@@ -1,9 +1,8 @@
 import Amenities from "@/components/Amenities";
-import PhotoCarousel from "@/components/PhotoCarousel";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { images, roomTypes } from "@/constants/constants";
+import { roomTypes } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";

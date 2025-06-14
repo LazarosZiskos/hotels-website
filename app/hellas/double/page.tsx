@@ -39,7 +39,7 @@ const page = () => {
             reflection.
           </p>
           <p className="leading-8 pt-2">
-            Whether you're here for a romantic getaway or a rejuvenating
+            Whether you are here for a romantic getaway or a rejuvenating
             retreat, our Double Room offers the perfect blend of style and
             comfort for an unforgettable stay that leaves you refreshed and
             revitalized.
@@ -48,8 +48,8 @@ const page = () => {
         <h3 className="pb-4 mt-10 font-serif text-3xl">Room Facilities</h3>
         <div className="items-start font-serif mb-10">
           <ul className="grid md:grid-cols-3 gap-2">
-            {facilities.map((item: Facilities) => (
-              <li key={item.text} className="flex gap-2">
+            {facilities.map((item: Facilities, index) => (
+              <li key={index} className="flex gap-2">
                 <CheckCheck className="text-primary/50" />
                 {item.text}
               </li>

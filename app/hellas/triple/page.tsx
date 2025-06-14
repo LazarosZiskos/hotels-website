@@ -48,8 +48,8 @@ const page = () => {
         <h3 className="pb-4 mt-10 font-serif text-3xl">Room Facilities</h3>
         <div className="items-start font-serif mb-10">
           <ul className="grid md:grid-cols-3 gap-2">
-            {facilities.map((item: Facilities) => (
-              <li key={item.text} className="flex gap-2">
+            {facilities.map((item: Facilities, index) => (
+              <li key={index} className="flex gap-2">
                 <CheckCheck className="text-primary" />
                 {item.text}
               </li>

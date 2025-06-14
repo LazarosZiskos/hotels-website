@@ -69,7 +69,7 @@ const MobileNav = () => {
                 <SheetClose>{link.title}</SheetClose>
               </Link>
             ))}
-            <div className="">
+            <div>
               <button
                 onClick={() => setOpen(!open)}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50"
