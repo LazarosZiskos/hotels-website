@@ -208,11 +208,11 @@ const Hero = () => {
           <Card className="relative overflow-hidden border-0 shadow-2xl bg-card py-0">
             <div>
               <Image
-                src="/location1.png"
+                src="/google-maps.png"
                 alt="maps-location"
                 width={600}
                 height={400}
-                className="w-full h-100 object-fill"
+                className="w-full h-100 object-cover"
               />
             </div>
             <CardContent>

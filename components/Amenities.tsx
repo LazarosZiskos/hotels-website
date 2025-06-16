@@ -5,11 +5,11 @@ import { useTranslations } from "next-intl";
 const Amenities = () => {
   const t = useTranslations("Amenities");
   return (
-    <div className="mt-30 max-w-6xl mx-auto">
+    <div className=" max-w-6xl mx-auto">
       <h1 className="text-3xl md:text-6xl text-center tracking-wide">
         {t("title")}
       </h1>
-      <div className="grid md:grid-cols-3 gap-8 mt-15 mb-30">
+      <div className="grid md:grid-cols-3 gap-8 mt-15">
         {amenities.map((item, idx) => {
           const Icon = item.icon;
           return (

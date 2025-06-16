@@ -23,7 +23,7 @@ const RoomCard = ({
 }: RoomCardProps) => {
   return (
     <div className="">
-      <Card className="relative overflow-hidden max-h-[650px] border-0 shadow-2xl bg-card py-0">
+      <Card className="relative overflow-hidden min-h-[650px] border-0 shadow-2xl bg-card py-0">
         <div>
           <Image
             src={src}
