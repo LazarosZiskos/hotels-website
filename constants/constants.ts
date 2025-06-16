@@ -8,21 +8,26 @@ export const navLinks = [
   },
   {
     id: 2,
+    title: "About",
+    href: "/about",
+  },
+  {
+    id: 3,
     title: "Hotel Hellas",
     href: "/hellas",
   },
   {
-    id: 3,
+    id: 4,
     title: "Hotel GL",
     href: "/gl",
   },
   {
-    id: 4,
+    id: 5,
     title: "Destinations",
     href: "/destinations",
   },
   {
-    id: 5,
+    id: 6,
     title: "Contact",
     href: "/contact",
   },
