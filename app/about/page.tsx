@@ -296,9 +296,9 @@ const AboutPage = () => {
               memories.
             </p>
             <p className="pt-4 text-[14px]">
-              Whether you're seeking a relaxing beach getaway, exploring the
-              rich history and culture of the region, or simply looking for a
-              home away from home, we invite you to join our family at our
+              Whether you&apos; re seeking a relaxing beach getaway, exploring
+              the rich history and culture of the region, or simply looking for
+              a home away from home, we invite you to join our family at our
               Hotels.
             </p>
             <p className="pt-4 text-[14px]">
