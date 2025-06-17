@@ -4,7 +4,7 @@ import Amenities from "@/components/Amenities";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { roomTypes } from "@/constants/constants";
+import { roomTypesGL } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -118,7 +118,7 @@ const GlRoute = () => {
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
-          {roomTypes.map((type: RoomType, index) => (
+          {roomTypesGL.map((type: RoomType, index) => (
             <div key={index}>
               <RoomCard
                 src={type.src}

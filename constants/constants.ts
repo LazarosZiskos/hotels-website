@@ -56,26 +56,137 @@ export const paraliaImages = [
   },
 ];
 
-export const images = [
+export const imagesGL = [
   {
-    src: "/gl1.jpeg",
-    alt: "gl1",
+    src: "/hellasdouble1.jpg",
+    alt: "hellas-double1",
+  },
+  {
+    src: "/hellasdouble2.jpg",
+    alt: "hellas-double2",
+  },
+  {
+    src: "/hellasquad1.jpg",
+    alt: "hellas-quadruple1",
+  },
+  {
+    src: "/hellasquad2.jpg",
+    alt: "hellas-quadruple2",
+  },
+  {
+    src: "/hellasquad3.jpg",
+    alt: "hellas-quadruple3",
+  },
+  {
+    src: "/hellasquad5.jpg",
+    alt: "hellas-quadruple5",
+  },
+  {
+    src: "/hellasquad6.jpg",
+    alt: "hellas-quadruple6",
+  },
+  {
+    src: "/hellasquad7.jpg",
+    alt: "hellas-quadruple7",
+  },
+  {
+    src: "/hellasquad8.jpg",
+    alt: "hellas-quadruple8",
+  },
+  {
+    src: "/hellasquad9.jpg",
+    alt: "hellas-quadruple9",
+  },
+  {
+    src: "/hellassingle1.jpg",
+    alt: "hellas-single1",
+  },
+  {
+    src: "/hellastriple1.jpg",
+    alt: "hellas-triple1",
+  },
+  {
+    src: "/hellastriple2.jpg",
+    alt: "hellas-triple2",
+  },
+  {
+    src: "/hellastriple3.jpg",
+    alt: "hellas-triple3",
+  },
+  {
+    src: "/hellas-bathroom2.jpg",
+    alt: "hellas-wc2",
   },
   {
     src: "/hellas1.jpg",
-    alt: "hellas1",
+    alt: "hellas-wc2",
+  },
+];
+
+export const imagesHellas = [
+  {
+    src: "/hellasdouble1.jpg",
+    alt: "hellas-double1",
   },
   {
-    src: "/logo.png",
-    alt: "hellas1",
+    src: "/hellasdouble2.jpg",
+    alt: "hellas-double2",
   },
   {
-    src: "/meteora1.avif",
-    alt: "hellas1",
+    src: "/hellasquad1.jpg",
+    alt: "hellas-quadruple1",
   },
   {
-    src: "/paralia1.avif",
-    alt: "hellas1",
+    src: "/hellasquad2.jpg",
+    alt: "hellas-quadruple2",
+  },
+  {
+    src: "/hellasquad3.jpg",
+    alt: "hellas-quadruple3",
+  },
+  {
+    src: "/hellasquad5.jpg",
+    alt: "hellas-quadruple5",
+  },
+  {
+    src: "/hellasquad6.jpg",
+    alt: "hellas-quadruple6",
+  },
+  {
+    src: "/hellasquad7.jpg",
+    alt: "hellas-quadruple7",
+  },
+  {
+    src: "/hellasquad8.jpg",
+    alt: "hellas-quadruple8",
+  },
+  {
+    src: "/hellasquad9.jpg",
+    alt: "hellas-quadruple9",
+  },
+  {
+    src: "/hellassingle1.jpg",
+    alt: "hellas-single1",
+  },
+  {
+    src: "/hellastriple1.jpg",
+    alt: "hellas-triple1",
+  },
+  {
+    src: "/hellastriple2.jpg",
+    alt: "hellas-triple2",
+  },
+  {
+    src: "/hellastriple3.jpg",
+    alt: "hellas-triple3",
+  },
+  {
+    src: "/hellas-bathroom2.jpg",
+    alt: "hellas-wc2",
+  },
+  {
+    src: "/hellas1.jpg",
+    alt: "hellas-wc2",
   },
 ];
 
@@ -179,9 +290,50 @@ export const facilities = [
   { text: "Balcony" },
 ];
 
+export const roomTypesGL = [
+  {
+    src: "/hellasdouble1.jpg",
+    title: "Single Room",
+    btnTitle: "View more..",
+    alt: "single-room",
+    description:
+      "Single room designed for solo travelers. Offers a cozy retreat with a large bed and calming atmosphere, ideal for resting after a full day of sun and sea.",
+
+    href: "/gl/single",
+  },
+  {
+    src: "/hellasdouble2.jpg",
+    title: "Double Room",
+    btnTitle: "View more..",
+    alt: "double-room",
+    description:
+      "Double room ideal for couples or friends. It comes with either two single beds or one large bed, perfect for relaxing after a day of exploring or enjoying the sun.",
+
+    href: "/gl/double",
+  },
+  {
+    src: "/hellastriple1.jpg",
+    title: "Triple Room",
+    btnTitle: "View more..",
+    alt: "triple-room",
+    description:
+      "Triple room designed for small groups or families. Features a combination of beds to suit your needs, offering space and comfort after a full day of seaside adventures.",
+    href: "/gl/triple",
+  },
+  {
+    src: "/hellasquad7.jpg",
+    title: "Family Room",
+    btnTitle: "View more..",
+    alt: "quadruple-room",
+    description:
+      "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it is your ideal base for a fun-filled holiday together.",
+    href: "/gl/quadruple",
+  },
+];
+
 export const roomTypes = [
   {
-    src: "/hellas1.jpg",
+    src: "/hellasdouble1.jpg",
     title: "Single Room",
     btnTitle: "View more..",
     alt: "single-room",
@@ -191,7 +343,7 @@ export const roomTypes = [
     href: "/hellas/single",
   },
   {
-    src: "/hellas1.jpg",
+    src: "/hellasdouble2.jpg",
     title: "Double Room",
     btnTitle: "View more..",
     alt: "double-room",
@@ -201,7 +353,7 @@ export const roomTypes = [
     href: "/hellas/double",
   },
   {
-    src: "/hellas1.jpg",
+    src: "/hellastriple1.jpg",
     title: "Triple Room",
     btnTitle: "View more..",
     alt: "triple-room",
@@ -210,7 +362,7 @@ export const roomTypes = [
     href: "/hellas/triple",
   },
   {
-    src: "/hellas1.jpg",
+    src: "/hellasquad7.jpg",
     title: "Family Room",
     btnTitle: "View more..",
     alt: "quadruple-room",

@@ -1,5 +1,5 @@
 import PhotoCarousel from "@/components/PhotoCarousel";
-import { facilities, imagesHellas } from "@/constants/constants";
+import { facilities, imagesGL } from "@/constants/constants";
 import { CheckCheck } from "lucide-react";
 import React from "react";
 
@@ -10,11 +10,11 @@ interface Facilities {
 const page = () => {
   return (
     <section>
-      <h1 className="text-3xl md:text-5xl text-center p-8">Single Room</h1>
+      <h1 className="text-3xl md:text-5xl text-center p-8">Double Room</h1>
 
       <div className="w-full h-full pt-4 min-h-screen max-w-6xl mx-auto ">
         <div>
-          <PhotoCarousel images={imagesHellas} />
+          <PhotoCarousel images={imagesGL} />
         </div>
 
         <div className="flex flex-col items-start font-serif justify-center">
@@ -39,7 +39,7 @@ const page = () => {
             reflection.
           </p>
           <p className="leading-8 pt-2">
-            Whether youare here for a romantic getaway or a rejuvenating
+            Whether you are here for a romantic getaway or a rejuvenating
             retreat, our Double Room offers the perfect blend of style and
             comfort for an unforgettable stay that leaves you refreshed and
             revitalized.
