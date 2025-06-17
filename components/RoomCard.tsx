@@ -22,7 +22,7 @@ const RoomCard = ({
   btnTitle,
 }: RoomCardProps) => {
   return (
-    <div className="">
+    <div>
       <Card className="relative overflow-hidden min-h-[650px] border-0 shadow-2xl bg-card py-0">
         <div>
           <Image

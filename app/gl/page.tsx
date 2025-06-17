@@ -60,7 +60,7 @@ const GlRoute = () => {
           </div>
           <div className="md:w-1/2 max-h-[500px] rounded-lg overflow-y-hidden">
             <Image
-              src="/hellas1.jpg"
+              src="/gl1.jpeg"
               alt="hotel-hellas"
               width={500}
               height={300}
@@ -78,7 +78,7 @@ const GlRoute = () => {
         ></path>
       </svg>
 
-      <div className="pt-10 bg-[#F3F4F6]">
+      <div className="pt-10 bg-[#F3F4F6] p-4">
         <div className="flex flex-col max-w-6xl mx-auto justify-center items-center gap-8 p-4 ">
           <h1 className="text-3xl md:text-6xl tracking-wider text-center">
             {t("accomodation-title")}
@@ -89,7 +89,7 @@ const GlRoute = () => {
             {t("accomodation2")}
           </p>
 
-          <div className="flex items-center justify-center gap-8 mb-10">
+          <div className="flex items-center justify-center gap-8 flex-wrap mb-10">
             <div className="flex items-center justify-center gap-4">
               <div className="w-3 h-3 bg-amber-100 rounded-full"></div>
               <span className="text-muted-foreground font-serif text-sm tracking-wide">
@@ -141,7 +141,7 @@ const GlRoute = () => {
         ></path>
       </svg>
 
-      <div className="pt-0">
+      <div className="pt-0 p-4">
         <Amenities />
       </div>
 
