@@ -56,6 +56,65 @@ export const paraliaImages = [
   },
 ];
 
+export const restaurantGl = [
+  {
+    src: "/gl-buffet16.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet15.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet14.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet13.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet12.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet11.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet10.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet9.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet7.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet6.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet4.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet3.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet2.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/gl-buffet1.jpg",
+    alt: "gl-buffet",
+  },
+];
+
 export const imagesGL = [
   {
     src: "/gl-reception1.jpg",
