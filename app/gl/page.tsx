@@ -1,10 +1,11 @@
 "use client";
 
 import Amenities from "@/components/Amenities";
+import PhotoCarousel from "@/components/PhotoCarousel";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { roomTypesGL } from "@/constants/constants";
+import { imagesGL, roomTypesGL } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -59,13 +60,14 @@ const GlRoute = () => {
             </Link>
           </div>
           <div className="md:w-1/2 max-h-[800px] w-full rounded-lg overflow-y-hidden">
-            <Image
+            {/* <Image
               src="/gl-out2.jpg"
               alt="hotel-gl"
               width={500}
               height={300}
               className="shadow-2xl object-cover"
-            />
+            /> */}
+            <PhotoCarousel images={imagesGL} />
           </div>
         </div>
       </div>

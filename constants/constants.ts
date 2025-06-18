@@ -114,10 +114,6 @@ export const imagesGL = [
     alt: "gl-room",
   },
   {
-    src: "/gl-general7.jpg",
-    alt: "gl-room",
-  },
-  {
     src: "/gl-single1.jpg",
     alt: "gl-room",
   },
