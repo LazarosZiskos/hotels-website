@@ -34,7 +34,7 @@ export default function PhotoCarousel({ images }: PhotoCarouselProps) {
           src={images[currentIndex].src || "/hellas1.jpg"}
           alt={images[currentIndex].alt}
           fill
-          className="object-fill transition-opacity duration-500"
+          className="object-contain transition-opacity duration-500"
         />
 
         {/* Navigation Buttons */}

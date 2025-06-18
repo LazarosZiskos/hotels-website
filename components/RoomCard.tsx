@@ -30,7 +30,7 @@ const RoomCard = ({
             alt={alt}
             width={600}
             height={400}
-            className="w-full h-100 object-fill"
+            className="w-full h-100 object-cover"
           />
         </div>
         <CardContent className="">

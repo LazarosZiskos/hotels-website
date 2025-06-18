@@ -1,5 +1,5 @@
 import PhotoCarousel from "@/components/PhotoCarousel";
-import { facilities, imagesHellas } from "@/constants/constants";
+import { facilities, imagesGL } from "@/constants/constants";
 import { CheckCheck } from "lucide-react";
 import React from "react";
 
@@ -14,7 +14,7 @@ const page = () => {
 
       <div className="w-full h-full pt-4 min-h-screen max-w-6xl mx-auto ">
         <div>
-          <PhotoCarousel images={imagesHellas} />
+          <PhotoCarousel images={imagesGL} />
         </div>
 
         <div className="flex flex-col items-start font-serif justify-center">

@@ -51,8 +51,8 @@ const Navbar = () => {
 
   return (
     <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
-      <div className="hidden px-[100px] h-25 md:flex justify-between z-10">
-        <div className="md:flex items-center justify-center ">
+      <div className="hidden px-[100px] h-25 lg:flex justify-between z-10">
+        <div className="md:flex items-center justify-center">
           <Link
             href="/"
             className="flex items-center justify-center font-semibold"
@@ -109,7 +109,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between px-8 py-2 md:hidden">
+      <div className="flex items-center justify-between px-8 py-2 lg:hidden">
         <div className="md:flex items-center justify-center">
           <Link href="/">
             <Image src="/logo.png" width={50} height={50} alt="logo" />

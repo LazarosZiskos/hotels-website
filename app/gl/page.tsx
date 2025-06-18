@@ -58,10 +58,10 @@ const GlRoute = () => {
               {t("gl-btn")}
             </Link>
           </div>
-          <div className="md:w-1/2 max-h-[500px] rounded-lg overflow-y-hidden">
+          <div className="md:w-1/2 max-h-[800px] w-full rounded-lg overflow-y-hidden">
             <Image
-              src="/gl1.jpeg"
-              alt="hotel-hellas"
+              src="/gl-out2.jpg"
+              alt="hotel-gl"
               width={500}
               height={300}
               className="shadow-2xl object-cover"

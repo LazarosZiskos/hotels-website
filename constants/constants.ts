@@ -58,68 +58,88 @@ export const paraliaImages = [
 
 export const imagesGL = [
   {
-    src: "/hellasdouble1.jpg",
-    alt: "hellas-double1",
+    src: "/gl-reception1.jpg",
+    alt: "gl-reception",
   },
   {
-    src: "/hellasdouble2.jpg",
-    alt: "hellas-double2",
+    src: "/gl-double1.jpg",
+    alt: "gl-double1",
   },
   {
-    src: "/hellasquad1.jpg",
-    alt: "hellas-quadruple1",
+    src: "/gl-double2.jpg",
+    alt: "gl-double2",
   },
   {
-    src: "/hellasquad2.jpg",
-    alt: "hellas-quadruple2",
+    src: "/gl-double3.jpg",
+    alt: "gl-double3",
   },
   {
-    src: "/hellasquad3.jpg",
-    alt: "hellas-quadruple3",
+    src: "/gl-double4.jpg",
+    alt: "gl-double4",
   },
   {
-    src: "/hellasquad5.jpg",
-    alt: "hellas-quadruple5",
+    src: "/gl-double5.jpg",
+    alt: "gl-double",
   },
   {
-    src: "/hellasquad6.jpg",
+    src: "/gl-double6.jpg",
+    alt: "gl-double",
+  },
+  {
+    src: "/gl-double7.jpg",
     alt: "hellas-quadruple6",
   },
   {
-    src: "/hellasquad7.jpg",
-    alt: "hellas-quadruple7",
+    src: "/gl-general1.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellasquad8.jpg",
-    alt: "hellas-quadruple8",
+    src: "/gl-general2.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellasquad9.jpg",
-    alt: "hellas-quadruple9",
+    src: "/gl-general3.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellassingle1.jpg",
-    alt: "hellas-single1",
+    src: "/gl-general5.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellastriple1.jpg",
-    alt: "hellas-triple1",
+    src: "/gl-general6.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellastriple2.jpg",
-    alt: "hellas-triple2",
+    src: "/gl-general7.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellastriple3.jpg",
-    alt: "hellas-triple3",
+    src: "/gl-general7.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellas-bathroom2.jpg",
-    alt: "hellas-wc2",
+    src: "/gl-single1.jpg",
+    alt: "gl-room",
   },
   {
-    src: "/hellas1.jpg",
-    alt: "hellas-wc2",
+    src: "/gl-triple1.jpg",
+    alt: "gl-room",
+  },
+  {
+    src: "/gl-triple2.jpg",
+    alt: "gl-room",
+  },
+  {
+    src: "/gl-triple3.jpg",
+    alt: "gl-room",
+  },
+  {
+    src: "/gl-out1.jpg",
+    alt: "gl-outside",
+  },
+  {
+    src: "/gl-out2.jpg",
+    alt: "gl-outside",
   },
 ];
 
@@ -292,7 +312,7 @@ export const facilities = [
 
 export const roomTypesGL = [
   {
-    src: "/hellasdouble1.jpg",
+    src: "/gl-double4.jpg",
     title: "Single Room",
     btnTitle: "View more..",
     alt: "single-room",
@@ -302,7 +322,7 @@ export const roomTypesGL = [
     href: "/gl/single",
   },
   {
-    src: "/hellasdouble2.jpg",
+    src: "/gl-double2.jpg",
     title: "Double Room",
     btnTitle: "View more..",
     alt: "double-room",
@@ -312,7 +332,7 @@ export const roomTypesGL = [
     href: "/gl/double",
   },
   {
-    src: "/hellastriple1.jpg",
+    src: "/gl-triple3.jpg",
     title: "Triple Room",
     btnTitle: "View more..",
     alt: "triple-room",
@@ -321,7 +341,7 @@ export const roomTypesGL = [
     href: "/gl/triple",
   },
   {
-    src: "/hellasquad7.jpg",
+    src: "/gl-double3.jpg",
     title: "Family Room",
     btnTitle: "View more..",
     alt: "quadruple-room",
