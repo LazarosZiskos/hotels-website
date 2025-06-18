@@ -176,5 +176,188 @@
     "paragraph4": "Доживите опуштен ритам грчког приморског живота у Паралији Катерини, где сваки излазак сунца почиње звуком мора, а свако вече завршава незаборавним успоменама.",
     "callToAction": "Јесте ли узбуђени??!",
     "button": "Резервишите сада"
+  },
+  "about": {
+    "about-title": "O Našim Hotelima",
+    "about-paragraphs": [
+      "Dobrodošli u naše porodične hotele u srcu Paralije Katerini u Grčkoj, gde se topla gostoljubivost susreće sa profesionalnom uslugom kako bi vaš boravak bio zaista nezaboravan. Naš renovirani hotel sa tri zvezdice nalazi se samo 100 metara od sunčanih plaža ove živopisne turističke destinacije i nudi savršen spoj udobnosti i pogodnosti.",
+      "Sa 23 sobe u Hotelu Hellas i 20 u Hotelu GL, pažljivo dizajnirane jednokrevetne, dvokrevetne, trokrevetne i porodične sobe zadovoljavaju različite potrebe naših gostiju. Svaka soba je opremljena modernim pogodnostima poput 32-inčnog TV-a ravnog ekrana, klima uređaja, potpuno opremljene čajne kuhinje (samo u Hotelu Hellas) i besplatnog brzog WiFi-ja, što osigurava udoban i prijatan boravak.",
+      "Naša gostoljubivost se ne završava samo u sobama. Započnite dan ukusnim doručkom koji se služi u našem prijatnom restoranu, gde možete uživati i u tradicionalnoj grčkoj kuhinji za večeru, uz pomoć ljubaznog osoblja recepcije. Kada poželite predah od sunca, naša kafe-terasa pruža opuštajuću atmosferu za kafu ili osvežavajuće napitke tokom dana.",
+      "Kao porodična firma, ponosimo se stvaranjem prijatnog ambijenta gde se svaki gost oseća kao deo naše velike porodice. Naš posvećeni tim ima za cilj da vaš odmor učini izuzetnim. I dok težimo udobnosti i domaćoj atmosferi, neprestano se trudimo da unapredimo vaše iskustvo i stvorimo nezaboravne uspomene.",
+      "Bilo da želite opuštajući odmor na plaži, da istražite bogatu istoriju i kulturu regiona, ili jednostavno tražite dom daleko od kuće, pozivamo vas da postanete deo naše hotelske porodice.",
+      "Smešteni u samom centru Paralije Katerini, naši hoteli su savršena polazna tačka za istraživanje čari ove očaravajuće zemlje. Osim sunčanih plaža koje su nadomak naših vrata, brojna obližnja mesta čekaju da budu otkrivena.",
+      "Krenite na putovanje do zadivljujućih manastira Meteora, gde drevna svetilišta na liticama nude spektakularne poglede i uvid u duhovnu baštinu Grčke. Ili zaplovite ka idiličnom ostrvu Skijatos, poznatom po kristalno čistoj vodi, netaknutim plažama i šarmantnim selima.",
+      "Za one koji vole gradske avanture, živopisni grad Solun vas poziva svojim užurbanim pijacama, istorijskim znamenitostima i bogatim kulturnim sadržajem. Uronite u ritam gradskog života šetajući njegovim uličicama, uživajući u grčkim specijalitetima i upijajući atmosferu.",
+      "Rezervišite svoj boravak već danas i krenite na put opuštanja, otkrivanja i iskrene gostoljubivosti. Radujemo se što ćemo vas dočekati u Paraliji Katerini, gde je svaki trenutak prilika za stvaranje trajnih uspomena."
+    ],
+    "services-title": "Neke od usluga koje nudimo",
+    "disclaimer": "*Uprava hotela zadržava pravo da bez prethodne najave izvrši izmene u sadržajima i uslugama navedenim u ovom opisu.*",
+    "rules-title": "Bezbednosna Pravila",
+    "services": [
+      {
+        "title": "24h Recepcija",
+        "description": "Naš hotel ima recepciju otvorenu 24 časa, sa stalnim pristupom unutrašnjem i spoljašnjem telefonu. Usluga buđenja i 24-časovni telefonski pristup."
+      },
+      {
+        "title": "Prijava",
+        "description": "Vreme prijave je posle 14:00. U nekim slučajevima može biti ranije, u zavisnosti od spremnosti sobe. Molimo vas kontaktirajte recepciju."
+      },
+      {
+        "title": "Prenos prtljaga",
+        "description": "Zatražite od recepcije da vam prenese prtljag u sobu uz dodatnu naknadu."
+      },
+      {
+        "title": "Bife Doručak",
+        "description": "Doručak traje više od 3 sata, od 07:15 do 10:30. U slučaju ranog odlaska, doručak se može pripremiti u paketu na zahtev. Molimo kontaktirajte recepciju dan ranije radi cene."
+      },
+      {
+        "title": "Dodatni krevet za decu",
+        "description": "Na zahtev, u vašu sobu može se dodati dečiji krevet."
+      },
+      {
+        "title": "Doručak u sobi",
+        "description": "Doručak se može poslužiti u sobi kao jutarnja usluga uz doplatu na recepciji."
+      },
+      {
+        "title": "Brza Odjava",
+        "description": "Nudimo brzu odjavu uz doručak u kutiji, u ranim jutarnjim satima."
+      },
+      {
+        "title": "Večera",
+        "description": "Večera se služi u našem unutrašnjem restoranu u formi bifea uz dodatnu naknadu."
+      },
+      {
+        "title": "Služba u sobi",
+        "description": "Room service: 24 časa uz dodatnu naknadu."
+      },
+      {
+        "title": "Održavanje higijene",
+        "description": "Naš tim za održavanje higijene vam je na raspolaganju. Sve zajedničke prostorije se svakodnevno čiste, a sobe do 15:00. Za dodatne peškire, jastuke ili dasku za peglanje, kontaktirajte recepciju. Usluga večernjeg sređivanja sobe dostupna uz doplatu."
+      },
+      {
+        "title": "Sobe za nepušače",
+        "description": "Sve sobe su za nepušače. Molimo vas da pušite samo na terasi."
+      },
+      {
+        "title": "Hemijsko čišćenje",
+        "description": "Nudimo usluge hemijskog čišćenja, pranja i peglanja uz doplatu."
+      },
+      {
+        "title": "Izbor jastuka",
+        "description": "Nudimo izbor od 3 vrste jastuka (hipoalergijski jastuk na zahtev)."
+      },
+      {
+        "title": "Hotelski peškiri",
+        "description": "Molimo vas da ne koristite bele peškire sa kupatila na plaži. U slučaju gubitka, biće naplaćeni."
+      },
+      {
+        "title": "Klima uređaj i grejanje",
+        "description": "Sve sobe imaju klima uređaj. Koristite daljinski upravljač za podešavanje. Ako imate pitanja, kontaktirajte recepciju.",
+        "important": "VAŽNO: Balkonska vrata moraju biti zatvorena da bi klima uređaj radio."
+      },
+      {
+        "title": "Znak Ne uznemiravaj",
+        "description": "Postavite znak 'Ne uznemiravaj' ispred vrata ako ne želite smetnje. Ako želite da vam se soba očisti, skinite znak pre 14:00. Za isključenje poziva, kontaktirajte recepciju.",
+        "important": "VAŽNO: Isključite svetla i klimu pre nego što napustite sobu i ostavite ključ na recepciji."
+      },
+      {
+        "title": "Sefovi",
+        "description": "Hotel ne preuzima odgovornost za gubitak vrednosti. Sefovi su dostupni na recepciji besplatno."
+      },
+      {
+        "title": "Internet",
+        "description": "Svaka soba i zajednički prostori imaju besplatan WiFi. Ako imate problema sa povezivanjem, kontaktirajte recepciju."
+      },
+      {
+        "title": "Usluga peglanja",
+        "description": "Za više informacija obratite se recepciji."
+      },
+      {
+        "title": "Prevoz sa aerodroma",
+        "description": "Aerodrom MAKEDONIJA je udaljen 80 km i do njega se stiže za 1 sat vožnje. Za organizaciju prevoza obratite se recepciji."
+      },
+      {
+        "title": "Red vožnje autobusa",
+        "description": "Za informacije o redovima vožnje kontaktirajte recepciju."
+      },
+      {
+        "title": "Iznajmljivanje automobila",
+        "description": "Za više informacija kontaktirajte recepciju."
+      },
+      {
+        "title": "Kreditne kartice",
+        "description": "Na recepciji se prihvataju MasterCard i VISA (ne u drugim sektorima). Za dodatna pitanja o plaćanju obratite se recepciji."
+      },
+      {
+        "title": "Vreme odjave",
+        "description": "Vreme odjave je 11:00. Ako želite da ostavite prtljag, recepcija će vam pomoći. Za kasniju odjavu uz doplatu kontaktirajte recepciju dan ranije."
+      },
+      {
+        "title": "Biznis centar",
+        "description": "Za slanje faksa ili kopiranje, kontaktirajte recepciju. Na raspolaganju su računari, štampači, faks i skener."
+      },
+      {
+        "title": "Lift",
+        "description": "Hotel ima jedan lift koji povezuje prizemlje sa ostalim spratovima. Poštujte ograničenja težine i nemojte dozvoliti deci mlađoj od 12 godina da ga koriste bez nadzora."
+      },
+      {
+        "title": "Tablet i Laptop",
+        "description": "Tablet i laptop su dostupni na zahtev na recepciji."
+      },
+      {
+        "title": "Novine i časopisi",
+        "description": "Dnevne novine i časopisi su dostupni."
+      },
+      {
+        "title": "Izgubljeno i nađeno",
+        "description": "Molimo kontaktirajte recepciju."
+      },
+      {
+        "title": "Prtljag",
+        "description": "Za ostavu prtljaga kontaktirajte recepciju. Soba za prtljag se nalazi pored recepcije."
+      },
+      {
+        "title": "Ljubimci",
+        "description": "Kućni ljubimci nisu dozvoljeni u hotelu jer nema pogodnog mesta za njihov boravak."
+      },
+      {
+        "title": "Prva pomoć i lekar",
+        "description": "Na recepciji se nalazi pribor za prvu pomoć. Može se organizovati poseta lekara u sobi."
+      },
+      {
+        "title": "Napon",
+        "description": "220 Volti"
+      },
+      {
+        "title": "Apoteka",
+        "description": "Recepcija će vam dati informacije o najbližim apotekama."
+      },
+      {
+        "title": "Vodič kroz hotel",
+        "description": "Vodič kroz usluge hotela dostupan je na najmanje dva jezika (štampani)."
+      },
+      {
+        "title": "Sistem za žalbe gostiju",
+        "description": "Sistem za upravljanje žalbama: Pošaljite svoje žalbe na info@hotel-gl.r. Direktor hotela će vas kontaktirati u roku od 72 sata. Sva komunikacija se beleži."
+      },
+      {
+        "title": "Aparati za gašenje požara i plan opasnosti",
+        "description": "U slučaju požara, NE paničite. Pozovite recepciju iz sobe. Pritisnite dugme alarma u hodniku. Na svakom spratu se nalaze aparati za gašenje. NE koristite lift."
+      }
+    ],
+    "rules": [
+      {
+        "title": "Plivanje",
+        "description": "Radi vaše bezbednosti, nemojte plivati u moru ako ste konzumirali hranu ili alkohol. Sačekajte najmanje 3 sata iz bezbednosnih razloga."
+      },
+      {
+        "title": "Saobraćajne nezgode",
+        "description": "Ne zaboravite da se saobraćajna nesreća može dogoditi svakome. Ako iznajmljujete automobil ili motor, vozite pažljivo i nikada nakon konzumiranja alkohola. Uvek nosite kacigu na motorima."
+      },
+      {
+        "title": "Zemljotres",
+        "description": "Ako dođe do zemljotresa, nemojte paničiti. Lezite pored kreveta u fetalnom položaju dok ne prođe. Ni pod kojim uslovima ne koristite lift."
+      }
+    ]
   }
 }

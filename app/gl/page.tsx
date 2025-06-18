@@ -9,7 +9,6 @@ import { buttonVariants } from "@/components/ui/button";
 import { imagesGL, roomTypesGL } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 

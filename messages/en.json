@@ -176,5 +176,188 @@
     "paragraph4": "Come experience the laid-back rhythm of Greek seaside life in Paralia Katerinis, where every sunrise begins with the sound of the sea, and every evening ends with unforgettable memories.",
     "callToAction": "Are you excited??!",
     "button": "Book now"
+  },
+  "about": {
+    "about-title": "About Our Hotels",
+    "about-paragraphs": [
+      "Welcome to our family-run hotels in the heart of Paralia Katerini, Greece, where warm hospitality meets professional service to ensure your stay is truly memorable. Situated just 100 meters from the sun-kissed beaches of this vibrant tourist destination, our three-star renovated hotel offers the perfect blend of comfort and convenience.",
+      "With 23 in Hotel Hellas and 20 in Hotel GL thoughtfully designed rooms, including single, double, triple, and family accommodations, we cater to the diverse needs of our guests. Each room is equipped with modern amenities such as a 32-inch flat-screen TV, air conditioning, a fully equipped kitchenette (only in Hotel Hellas), and complimentary high-speed WiFi, ensuring a comfortable and enjoyable stay.",
+      "But our hospitality extends beyond the walls of our rooms. Start your day with a delicious breakfast served in our cozy restaurant, where you can also indulge in traditional Greek cuisine for dinner, arranged with our friendly reception staff. And when you need a break from the sun, our onsite cafeteria offers a relaxing atmosphere to enjoy coffee or other refreshing beverages throughout the day.",
+      "As a family-run business, we take pride in creating a welcoming environment where every guest feels like part of our extended family. Our dedicated team is committed to ensuring your holiday experience is nothing short of exceptional. While we prioritize comfort and familiarity, we continuously strive for excellence, seeking ways to enhance your stay and create unforgettable memories.",
+      "Whether you're seeking a relaxing beach getaway, exploring the rich history and culture of the region, or simply looking for a home away from home, we invite you to join our family at our Hotels.",
+      "Nestled in the heart of Paralia Katerini, Greece, our hotel serves as the perfect base for discovering the treasures of this enchanting country. Beyond the sun-drenched shores just steps away from our doorstep, there are numerous destinations nearby waiting to be explored.",
+      "Embark on a journey to the awe-inspiring monasteries of Meteora, where ancient cliff-top sanctuaries offer breathtaking views and a glimpse into the spiritual heritage of Greece. Or set sail to the idyllic island of Skiathos, renowned for its crystal-clear waters, pristine beaches, and charming villages.",
+      "For those with a penchant for urban adventures, the vibrant city of Thessaloniki beckons with its bustling markets, historical landmarks, and lively cultural scene. Immerse yourself in the rhythm of city life as you wander through its winding streets, sampling delectable Greek cuisine and soaking in the vibrant atmosphere.",
+      "Book your stay with us today and embark on a journey of relaxation, discovery, and genuine hospitality. We look forward to welcoming you to Paralia Katerini, where every moment is an opportunity to create lasting memories."
+    ],
+    "services-title": "Some of the services that we offer",
+    "disclaimer": "*Hotel management has the right to make changes in all facilities and the services listed in this description without a prior notice.*",
+    "rules-title": "Safety Rules",
+    "services": [
+      {
+        "title": "24h Reception",
+        "description": "Our hotel has an open 24-hour reception, with 24-hour internal or external telephone access. Wake up service and 24-hour phone access."
+      },
+      {
+        "title": "Check In",
+        "description": "Check in time is after 14:00. In some cases, your check in time can be earlier and it depends on the condition of the rooms. Please contact Reception."
+      },
+      {
+        "title": "Luggage Transportation Service",
+        "description": "Ask Reception to carry your luggage in your room with extra charge."
+      },
+      {
+        "title": "Buffet Breakfast",
+        "description": "Breakfast is over 3 hours 07:15 – 10:30. In case of early departure, we can provide breakfast in special packs upon request. Please contact with Front Desk the day before for the prices."
+      },
+      {
+        "title": "Additional Children's Bed",
+        "description": "Additional children's bed can be placed in your room upon request from the Reception."
+      },
+      {
+        "title": "Room Breakfast",
+        "description": "Breakfast is available in the room as a morning breakfast service with extra charge at the front desk."
+      },
+      {
+        "title": "Express Check Out",
+        "description": "We offer Express Checkout service with breakfast box, early in the morning."
+      },
+      {
+        "title": "Dinner",
+        "description": "Dinner is served in our buffet-style indoor diner with extra charge."
+      },
+      {
+        "title": "Room Service",
+        "description": "Room service: 24 hours with extra charge."
+      },
+      {
+        "title": "Housekeeping",
+        "description": "The Housekeeping team is at your disposal. All the common spaces are cleaned everyday with careful hygiene standards. All the rooms are cleaned and arranged every day until 15:00. If you need any extra towel, extra pillow or ironing board, please let us know. For additional cleaning services, please contact Front Desk. Housekeeping service is also available during night time as turndown service, providing our guests an extra room check. Turndown service is available with extra charge."
+      },
+      {
+        "title": "No Smoking Rooms",
+        "description": "All the rooms in the hotel are NON-SMOKING. Therefore, we ask you kindly to smoke only at your balcony."
+      },
+      {
+        "title": "Dry Cleaning",
+        "description": "Offering – with extra charge – service of dry cleaning, washing and ironing."
+      },
+      {
+        "title": "Selection of Pillows",
+        "description": "We offer selection for 3 types of pillows. (hypoallergenic pillow is available upon request)"
+      },
+      {
+        "title": "Hotel Towels",
+        "description": "Guests are kindly requested NOT to use the white bathroom towels to the beach. We have to inform you that in case that you will lose them you will have to pay the equivalent."
+      },
+      {
+        "title": "Air Condition & Heater",
+        "description": "All rooms are equipped with air conditioning for your comfort. Use the remote control to adjust the air condition. If you need help or have questions about the system, please contact with Reception.",
+        "important": "IMPORTANT NOTICE: You must keep the balcony door closed to make the A/C in operation."
+      },
+      {
+        "title": "Do not Disturb Sign",
+        "description": "Please hang the provided “Do NOT Disturb” sign outside your door if you need so. Notice only that if you wish that your room has to be cleaned you have to remove this card not later than 14:00. If you want not to receive any telephone calls in your room, please contact with Reception.",
+        "important": "IMPORTANT NOTICE: Please turn off the lights and the air conditions before you leave the room and leave your key at the reception."
+      },
+      {
+        "title": "Safe Deposit Boxes",
+        "description": "The hotel does not accept any responsibility for the loss of any valuables. We therefore advise all our guests to use the safe deposit boxes which are available in the Reception, free of charge."
+      },
+      {
+        "title": "Internet",
+        "description": "Each room has wireless internet access as well as all common areas of the hotel and is free of charge. If you are having problems with your connection, please contact with Reception."
+      },
+      {
+        "title": "Ironing Service",
+        "description": "Please contact with Reception for more information."
+      },
+      {
+        "title": "Aiport - Transfer",
+        "description": "MAKEDONIA Airport is approximately 80km from the hotel and takes 1 hour by car. If you wish to organize a transfer from the airport, the Reception team is happy to assist you in this matter."
+      },
+      {
+        "title": "Bus Timetable",
+        "description": "Please contact with Reception for bus time and schedules."
+      },
+      {
+        "title": "Car Rental",
+        "description": "Please contact with Reception for more information."
+      },
+      {
+        "title": "Credit Cards",
+        "description": "The credit cards that are accepted are MasterCard and VISA at Reception (not in other departments). If you have questions about payment methods, please contact with Reception."
+      },
+      {
+        "title": "Check Out Time",
+        "description": "The departure time is 11:00am. Reception will help you to save your luggage if you want to spend more time in Paralia before leaving and make your departure shorter with the Quick Departure on request. Guests who wish to extend the checkout time should ask Reception one day before their departure with extra charge."
+      },
+      {
+        "title": "Business Center",
+        "description": "If you want to send a fax or make a copy, please contact your Reception to help you. There is shared computer and printing, faxing, copying and scanning for our customers."
+      },
+      {
+        "title": "Elevator",
+        "description": "Hotel has one (1) lift which connects the ground floor with the various other floors. We ask you to respect its weight and capacity limitations for your own safety and to ensure that they remain in good working order. For safety reasons please do not allow children under 12 years old to use the lift without being accompanied by an adult."
+      },
+      {
+        "title": "Tablet & Laptop",
+        "description": "Laptop and Tablet are available upon request in our Reception."
+      },
+      {
+        "title": "Newspapers & Magazines",
+        "description": "Daily newspapers and magazines are available."
+      },
+      {
+        "title": "Lost & Found",
+        "description": "Please contact the reception."
+      },
+      {
+        "title": "Luggage",
+        "description": "For luggage storage please contact with Reception. Luggage room is available next to Reception."
+      },
+      {
+        "title": "Pets",
+        "description": "Pets are not allowed at the hotel, because there isn’t any suitable place for their stay."
+      },
+      {
+        "title": "First Aid & Doctor",
+        "description": "At the Reception there is a First Aid kit, with most vital medical supplies. There is also a possibility to arrange for a doctor visit at your room."
+      },
+      {
+        "title": "Voltage",
+        "description": "220 Volt"
+      },
+      {
+        "title": "Pharmacy",
+        "description": "Our Reception will give you information concerning the pharmacies."
+      },
+      {
+        "title": "Hotel Guide",
+        "description": "Guide to hotel services in at least two languages (printed)."
+      },
+      {
+        "title": "Customer Complaint Management System",
+        "description": "Customer complaint management system: Please send us your complaints to info@hotel-gl.r with the aim of independently investigating any issue. The hotel manager will send you a message within 72 hours and will contact you to manage your request. All correspondence and actions will exist in a related registry."
+      },
+      {
+        "title": "Fire Extinguishers & Danger Plan",
+        "description": "In case of a fire DO NOT panic. Call the reception from your room. Press the Fire Alarm button situated in the corridor. You will find Fire extinguishers on each floor. In case of fire do NOT use the elevator."
+      }
+    ],
+    "rules": [
+      {
+        "title": "Swimming",
+        "description": "Please for your own safety do not swim in the sea if you have consumed food or alcohol. Wait at least 3 hours for safety reasons."
+      },
+      {
+        "title": "Road Accidents",
+        "description": "Please remember that a car accident can happen to anyone. If you rent a car or a motorbike, drive safely and never after drinking alcohol. Always wear a helmet on motorbikes."
+      },
+      {
+        "title": "Earthquake",
+        "description": "If an earthquake occurs, do not panic. Lie next to your bed in a fetal position until it passes. Do not use the elevator under any circumstances."
+      }
+    ]
   }
 }

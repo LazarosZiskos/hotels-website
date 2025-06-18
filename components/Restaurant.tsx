@@ -1,6 +1,4 @@
 import React from "react";
-import PhotoCarousel from "./PhotoCarousel";
-import { imagesGL } from "@/constants/constants";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Image from "next/image";
