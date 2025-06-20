@@ -117,7 +117,7 @@ export const restaurantGl = [
 
 export const imagesGL = [
   {
-    src: "/gl-reception1.jpg",
+    src: "/gl-reception1.JPG",
     alt: "gl-reception",
   },
   {
@@ -125,75 +125,75 @@ export const imagesGL = [
     alt: "gl-double1",
   },
   {
-    src: "/gl-double2.jpg",
+    src: "/gl-double2.JPG",
     alt: "gl-double2",
   },
   {
-    src: "/gl-double3.jpg",
+    src: "/gl-double3.JPG",
     alt: "gl-double3",
   },
   {
-    src: "/gl-double4.jpg",
+    src: "/gl-double4.JPG",
     alt: "gl-double4",
   },
   {
-    src: "/gl-double5.jpg",
+    src: "/gl-double5.JPG",
     alt: "gl-double",
   },
   {
-    src: "/gl-double6.jpg",
+    src: "/gl-double6.JPG",
     alt: "gl-double",
   },
   {
-    src: "/gl-double7.jpg",
+    src: "/gl-double7.JPG",
     alt: "hellas-quadruple6",
   },
   {
-    src: "/gl-general1.jpg",
+    src: "/gl-general1.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-general2.jpg",
+    src: "/gl-general2.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-general3.jpg",
+    src: "/gl-general3.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-general5.jpg",
+    src: "/gl-general5.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-general6.jpg",
+    src: "/gl-general6.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-general7.jpg",
+    src: "/gl-general7.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-single1.jpg",
+    src: "/gl-single1.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-triple1.jpg",
+    src: "/gl-triple1.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-triple2.jpg",
+    src: "/gl-triple2.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-triple3.jpg",
+    src: "/gl-triple3.JPG",
     alt: "gl-room",
   },
   {
-    src: "/gl-out1.jpg",
+    src: "/gl-out1.JPG",
     alt: "gl-outside",
   },
   {
-    src: "/gl-out2.jpg",
+    src: "/gl-out2.JPG",
     alt: "gl-outside",
   },
 ];

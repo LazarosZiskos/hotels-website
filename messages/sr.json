@@ -201,6 +201,15 @@
         "para3": "Opustite se u modernom privatnom kupatilu sa svim potrebnim sadržajima i mekanim peškirima. Nakon dana ispunjenog avanturom, izađite na svoju terasu i udahnite morski vazduh uz pogled. Naša Porodična Soba nudi savršeno okruženje za povezivanje, udobnost i trenutke koje ćete zauvek pamtiti.",
         "btn": "Pogledajte više soba"
       }
+    },
+    "restaurant": {
+      "title": "Restoran",
+      "description": "Opis",
+      "para1": "Posetite naš prijatan unutrašnji i spoljašnji restoran, sa modernim dizajnom i prijateljskom atmosferom! Gosti mogu uživati u američkom stilu doručka na bazi švedskog stola. Takođe nudimo veliki izbor grčkih proizvoda kao što su feta sir, tradicionalni džemovi i domaći kolači.",
+      "para2": "Za večeru nudimo obrok na bazi švedskog stola sa dve glavne opcije i dva priloga. Uz to, gostima je dostupan bar sa 6 ili 7 različitih salata, raznovrsne supe koje se menjaju svakodnevno, kao i hladno voće ili domaći slatkiši za potpuni gastronomski doživljaj. Možete probati tradicionalna grčka jela poput musake, pasticija i razne vrste sveže ribe.",
+      "para3": "Restoran može da ugosti veliki broj gostiju, a naše iskusno osoblje je uvek tu da odgovori na svaku potrebu. Naša dva glavna principa kada je u pitanju hrana su: 1. Nećete ostati gladni i 2. Ne žrtvujemo kvalitet naših proizvoda zarad cene.",
+      "para4": "***Važna napomena: Večera je dostupna samo za grupe i ne nudimo à la carte opcije.***",
+      "btn": "Pogledajte naše sobe"
     }
   },
   "Destinations": {

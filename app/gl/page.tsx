@@ -26,7 +26,7 @@ const GlRoute = () => {
 
   const roomTypesGL: RoomType[] = [
     {
-      src: "/gl-double4.jpg",
+      src: "/gl-double4.JPG",
       title: t("rooms-gl.single.title"),
       btnTitle: t("rooms-gl.single.btnTitle"),
       alt: t("rooms-gl.single.alt"),
@@ -34,7 +34,7 @@ const GlRoute = () => {
       href: "/gl/single",
     },
     {
-      src: "/gl-double2.jpg",
+      src: "/gl-double2.JPG",
       title: t("rooms-gl.double.title"),
       btnTitle: t("rooms-gl.double.btnTitle"),
       alt: t("rooms-gl.double.alt"),
@@ -42,7 +42,7 @@ const GlRoute = () => {
       href: "/gl/double",
     },
     {
-      src: "/gl-triple3.jpg",
+      src: "/gl-triple3.JPG",
       title: t("rooms-gl.triple.title"),
       btnTitle: t("rooms-gl.triple.btnTitle"),
       alt: t("rooms-gl.triple.alt"),
@@ -50,7 +50,7 @@ const GlRoute = () => {
       href: "/gl/triple",
     },
     {
-      src: "/gl-double3.jpg",
+      src: "/gl-double3.JPG",
       title: t("rooms-gl.family.title"),
       btnTitle: t("rooms-gl.family.btnTitle"),
       alt: t("rooms-gl.family.alt"),
