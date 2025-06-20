@@ -40,7 +40,67 @@
     "single": "Single Rooms",
     "double": "Double Rooms",
     "triple": "Triple Rooms",
-    "quad": "Quadruple Rooms"
+    "quad": "Quadruple Rooms",
+    "rooms-hellas": {
+      "single": {
+        "title": "Single Room",
+        "btnTitle": "View More..",
+        "alt": "Single Room",
+        "description": "Single room designed for solo travellers. Offers a cozy retreat with a large bed and calming atmosphere, ideal for a rest after a full day at the sea."
+      },
+      "double": {
+        "title": "Double Room",
+        "btnTitle": "View More..",
+        "alt": "Double Room",
+        "description": "Double room ideal for couples or friends. It comes with either two single beds or one large bed, perfect for relaxing after a day of exploring or enjoying the sun."
+      },
+      "triple": {
+        "title": "Triple Room",
+        "btnTitle": "View More..",
+        "alt": "Triple Room",
+        "description": "Triple room designed for small groups or families. Features a combination of beds to suit your needs, offering space and comfort after a full day of seaside adventures."
+      },
+      "family": {
+        "title": "Family Room",
+        "btnTitle": "View More..",
+        "alt": "Quadruple Room",
+        "description": "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it is your ideal base for a fun-filled holiday together."
+      }
+    },
+    "roomInfo": {
+      "single": {
+        "title": "Single Room",
+        "description": "Description",
+        "para1": "Escape to serenity in our inviting Single Room, designed to provide solo travelers with a haven of relaxation and comfort. Step into a spacious and elegantly furnished room, featuring modern amenities an tasteful decor. Stay connected with complimentary high-speed WiFi and unwind in front of the 32-inch flat-screen TV with satellite channels, offering a wide range of entertainment options. Indulge in the convenience of individual air conditioning, ensuring personalized comfort throughout your stay.",
+        "para2": "The fully equipped kitchenette allows you to prepare your own meals or snacks, adding an extra layer of convenience to your experience. Refresh yourself in the en-suite bathroom, complete with all the essentials for your comfort and convenience. Step out onto your private balcony to enjoy the fresh air and beautiful views, providing the perfect backdrop for moments of relaxation and reflection.",
+        "para3": "Whether youare here for a romantic getaway or a rejuvenating retreat, our Double Room offers the perfect blend of style and comfort for an unforgettable stay that leaves you refreshed and revitalized.",
+        "btn": "Check out more rooms"
+      },
+      "double": {
+        "title": "Double Room",
+        "description": "Description",
+        "para3": "Whether youare here for a romantic getaway or a rejuvenating retreat, our Double Room offers the perfect blend of style and comfort for an unforgettable stay that leaves you refreshed and revitalized.",
+        "para2": "The fully equipped kitchenette allows you to prepare your own meals or snacks, adding an extra layer of convenience to your experience. Refresh yourself in the en-suite bathroom, complete with all the essentials for your comfort and convenience. Step out onto your private balcony to enjoy the fresh air and beautiful views, providing the perfect backdrop for moments of relaxation and reflection.",
+        "para1": "Escape to serenity in our inviting Double Room, designed to provide couples with a haven of relaxation and comfort. Step into a spacious and elegantly furnished room, featuring modern amenities an tasteful decor. Stay connected with complimentary high-speed WiFi and unwind in front of the 32-inch flat-screen TV with satellite channels, offering a wide range of entertainment options. Indulge in the convenience of individual air conditioning, ensuring personalized comfort throughout your stay.",
+        "btn": "Check out more rooms"
+      },
+      "triple": {
+        "title": "Triple Room",
+        "description": "Description",
+        "para1": "Experience the ultimate in comfort and convenience in our spacious Triple Room, ideal for families or small groups seeking a memorable stay. Step into a beautifully renovated space, tastefully decorated with modern furnishings and thoughtful touches that create a welcoming atmosphere. Stay connected with complimentary high-speed WiFi and enjoy entertainment on the 32-inch flat-screen TV with satellite channels, providing endless entertainment options for guests of all ages. Keep cool and comfortable with individual air conditioning, ensuring a personalized environment throughout your stay.",
+        "para2": "The fully equipped kitchenette allows you to prepare delicious meals or snacks, providing added flexibility and convenience for your stay. Rejuvenate in the en-suite bathroom, complete with all the amenities you need for a refreshing shower. Step out onto your private balcony to enjoy the fresh air and stunning views, offering a peaceful retreat after a day of exploration.",
+        "para3": "With ample space and modern amenities, our Triple Room is the perfect choice for a memorable stay filled with comfort and convenience that exceeds your expectations.",
+        "btn": "Check out more rooms"
+      },
+      "family": {
+        "title": "Family Room",
+        "description": "Description",
+        "para1": "Create lasting memories with your loved ones in our spacious and inviting Family Room, designed to accommodate families of all sizes. Step into a generously proportioned space, beautifully appointed with modern furnishings and tasteful decor that creates a warm and welcoming ambiance. Stay connected with complimentary high-speed WiFi and enjoy entertainment on the 32-inch flat-screen TV with satellite channels, providing entertainment options for guests of all ages. Individual air conditioning ensures personalized comfort for every member of the family, creating a comfortable environment throughout your stay.",
+        "para2": "The fully equipped kitchenette offers the flexibility to prepare meals or snacks at your convenience, adding an extra layer of convenience to your stay. Refresh yourself in the en-suite bathroom, complete with all the essentials for your comfort and convenience. Step out onto your private balcony to enjoy the fresh air and stunning views, offering a peaceful retreat after a day of adventure and exploration.",
+        "para3": "With ample space and modern amenities, our Family Room is the perfect choice for a memorable stay that brings families together and creates cherished moments that last a lifetime.",
+        "btn": "Check out more rooms"
+      }
+    }
   },
 
   "Amenities": {
@@ -106,7 +166,42 @@
       "family": {
         "title": "Family Room",
         "btnTitle": "View More..",
+        "alt": "Quadruple Room",
         "description": "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it is your ideal base for a fun-filled holiday together."
+      }
+    },
+    "roomInfo": {
+      "single": {
+        "title": "Single Room",
+        "description": "Description",
+        "para1": "Escape to serenity in our inviting Single Room, designed to provide solo travelers with a haven of relaxation and comfort. Step into a spacious and elegantly furnished room, featuring modern amenities and tasteful decor. Stay connected with complimentary high-speed WiFi and unwind in front of the 32-inch flat-screen TV with satellite channels, offering a wide range of entertainment options. Indulge in the convenience of individual air conditioning, ensuring personalized comfort throughout your stay.",
+        "para2": "Refresh yourself in the en-suite bathroom, complete with all the essentials for your comfort and convenience. Enjoy the soft lighting, cozy ambiance, and thoughtful touches that enhance your overall experience. Step out onto your private balcony to take in the fresh air and scenic views—perfect for quiet mornings or peaceful evenings.",
+        "para3": "Whether you're here for a romantic getaway or a rejuvenating retreat, our Single Room offers the perfect blend of style and comfort for an unforgettable stay that leaves you refreshed and revitalized.",
+        "btn": "Check out more rooms"
+      },
+      "double": {
+        "title": "Double Room",
+        "description": "Description",
+        "para1": "Escape to serenity in our inviting Double Rooms, designed to provide solo travelers with a haven of relaxation and comfort. Step into a spacious and elegantly furnished room, featuring modern amenities and tasteful decor. Stay connected with complimentary high-speed WiFi and unwind in front of the 32-inch flat-screen TV with satellite channels, offering a wide range of entertainment options. Indulge in the convenience of individual air conditioning, ensuring personalized comfort throughout your stay.",
+        "para2": "Refresh yourself in the en-suite bathroom, complete with all the essentials for your comfort and convenience. Enjoy the soft lighting, cozy ambiance, and thoughtful touches that enhance your overall experience. Step out onto your private balcony to take in the fresh air and scenic views—perfect for quiet mornings or peaceful evenings.",
+        "para3": "Whether you're here for a romantic getaway or a rejuvenating retreat, our Double Room offers the perfect blend of style and comfort for an unforgettable stay that leaves you refreshed and revitalized.",
+        "btn": "Check out more rooms"
+      },
+      "triple": {
+        "title": "Triple Room",
+        "description": "Description",
+        "para1": "Experience the ultimate in comfort and convenience in our spacious Triple Room, ideal for families or small groups seeking a memorable stay. Step into a beautifully renovated space, tastefully decorated with modern furnishings and thoughtful touches that create a warm and welcoming atmosphere. Stay connected with complimentary high-speed WiFi and enjoy entertainment on the 32-inch flat-screen TV with satellite channels, offering something for every age and interest. Enjoy the comfort of individual air conditioning, ensuring a pleasant and personalized environment throughout your stay.",
+        "para2": "Unwind in the generously sized en-suite bathroom, fully equipped with everything you need to refresh and relax. Plush towels, premium toiletries, and modern fixtures enhance your comfort and add a touch of luxury to your daily routine. For a breath of fresh air, step onto your private balcony—an ideal spot to enjoy your morning coffee or wind down as the sun sets.",
+        "para3": "With its inviting design, thoughtful amenities, and ample space to spread out, our Triple Room provides the perfect setting for shared moments, relaxation, and a stay that exceeds expectations.",
+        "btn": "Check out more rooms"
+      },
+      "family": {
+        "title": "Family Room",
+        "description": "Description",
+        "para1": "Create lasting memories with your loved ones in our spacious and inviting Family Room, thoughtfully designed to welcome families of all sizes. Enter a generously sized space, elegantly styled with modern furnishings and warm decor that instantly feels like home. With plenty of room for everyone to spread out and relax, the atmosphere is perfect for both shared moments and personal downtime.",
+        "para2": "Enjoy complimentary high-speed WiFi and a 32-inch flat-screen TV with satellite channels, offering a variety of entertainment to suit every age. Stay cool and comfortable with individual air conditioning, ensuring that each family member enjoys their ideal climate throughout the stay.",
+        "para3": "Unwind in the modern en-suite bathroom, complete with premium amenities and soft towels that enhance your comfort. After a day of adventure, step onto your private balcony to breathe in the sea air and take in beautiful views—a peaceful setting for conversation, laughter, or quiet reflection. With thoughtful design, ample space, and family-friendly features, our Family Room offers the ideal environment for connection, comfort, and unforgettable experiences.",
+        "btn": "Check out more rooms"
       }
     }
   },

@@ -38,10 +38,69 @@
     "accomodation1": "Izaberite između udobnih dvokrevetnih, trokrevetnih i četvorokrevetnih soba. ",
     "accomodation2": "Nudimo sobe sa pogledom na ulicu i na planinu.",
     "single": "Jednokrevetne Sobe",
-
     "double": "Dvokrevetne Sobe",
     "triple": "Trokrevetne Sobe",
-    "quad": "Četvorokrevetne Sobe"
+    "quad": "Četvorokrevetne Sobe",
+    "rooms-hellas": {
+      "single": {
+        "title": "Jednokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Jednokrevetna Soba",
+        "description": "Jednokrevetna soba namenjena solo putnicima. Nudi udoban prostor sa velikim krevetom i opuštajućom atmosferom — idealno mesto za odmor nakon celodnevnog boravka na plaži."
+      },
+      "double": {
+        "title": "Dvokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Dvokrevetna Soba",
+        "description": "Dvokrevetna soba idealna za parove ili prijatelje. Dostupna je sa dva odvojena kreveta ili jednim velikim, savršena za opuštanje nakon dana istraživanja ili sunčanja."
+      },
+      "triple": {
+        "title": "Trokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Trokrevetna Soba",
+        "description": "Trokrevetna soba namenjena manjim grupama ili porodicama. Nudi kombinaciju kreveta u skladu sa vašim potrebama, uz komfor i prostor nakon dana ispunjenog morskim avanturama."
+      },
+      "family": {
+        "title": "Porodična Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Cetvorokrevetna Soba",
+        "description": "Prostrana četvorokrevetna soba savršena za porodice ili grupe prijatelja. Sa više kreveta i dosta prostora za opuštanje, idealna je baza za odmor pun zabave."
+      }
+    },
+    "roomInfo": {
+      "single": {
+        "title": "Jednokrevetna Soba",
+        "description": "Opis",
+        "para1": "Pobegnite u mir u našoj prijatnoj jednokrevetnoj sobi, dizajniranoj da pruži solo putnicima utočište za opuštanje i udobnost. Uđite u prostranu i elegantno nameštenu sobu sa savremenim pogodnostima i ukusnim dekorom. Ostanite povezani uz besplatan brzi WiFi i opustite se ispred televizora ravnog ekrana od 32 inča sa satelitskim kanalima. Uživajte u pogodnosti individualnog klimatizovanja koje omogućava prilagođenu udobnost tokom cele boravka.",
+        "para2": "Potpuno opremljena čajna kuhinja omogućava vam da pripremite sopstvene obroke ili užine, dodajući dodatnu pogodnost vašem iskustvu. Osvežite se u privatnom kupatilu sa svim neophodnim sadržajima. Izađite na privatni balkon i uživajte u svežem vazduhu i prelepom pogledu – savršena pozadina za trenutke odmora i razmišljanja.",
+        "para3": "Bilo da ste ovde na romantičnom odmoru ili za opuštajući beg, naša jednokrevetna soba nudi savršen spoj stila i udobnosti za nezaboravan boravak koji će vas osvežiti i obnoviti.",
+        "btn": "Pogledajte više soba"
+      },
+      "double": {
+        "title": "Dvokrevetna Soba",
+        "description": "Opis",
+        "para3": "Bilo da ste ovde na romantičnom odmoru ili za opuštajući beg, naša dvokrevetna soba nudi savršen spoj stila i udobnosti za nezaboravan boravak koji će vas osvežiti i obnoviti.",
+        "para2": "Potpuno opremljena čajna kuhinja omogućava vam da pripremite sopstvene obroke ili užine, dodajući dodatnu pogodnost vašem iskustvu. Osvežite se u privatnom kupatilu sa svim neophodnim sadržajima. Izađite na privatni balkon i uživajte u svežem vazduhu i prelepom pogledu – savršena pozadina za trenutke odmora i razmišljanja.",
+        "para1": "Pobegnite u mir u našoj prijatnoj dvokrevetnoj sobi, dizajniranoj da pruži parovima utočište za opuštanje i udobnost. Uđite u prostranu i elegantno nameštenu sobu sa savremenim pogodnostima i ukusnim dekorom. Ostanite povezani uz besplatan brzi WiFi i opustite se ispred televizora ravnog ekrana od 32 inča sa satelitskim kanalima. Uživajte u pogodnosti individualnog klimatizovanja koje omogućava prilagođenu udobnost tokom cele boravka.",
+        "btn": "Pogledajte više soba"
+      },
+      "triple": {
+        "title": "Trokrevetna Soba",
+        "description": "Opis",
+        "para1": "Doživite vrhunsku udobnost i pogodnost u našoj prostranoj trokrevetnoj sobi, idealnoj za porodice ili manje grupe koje traže nezaboravan boravak. Uđite u lepo renoviran prostor sa modernim nameštajem i pažljivo odabranim detaljima koji stvaraju prijatnu atmosferu. Ostanite povezani uz besplatan brzi WiFi i uživajte u zabavi na televizoru ravnog ekrana od 32 inča sa satelitskim kanalima. Održavajte prijatnu temperaturu zahvaljujući individualnom klimatizovanju.",
+        "para2": "Potpuno opremljena čajna kuhinja vam omogućava da pripremite ukusne obroke ili užine, nudeći dodatnu fleksibilnost i pogodnost tokom boravka. Osvežite se u privatnom kupatilu sa svim potrebnim sadržajima. Izađite na privatni balkon i uživajte u svežem vazduhu i zapanjujućem pogledu – idealno mesto za opuštanje nakon dana istraživanja.",
+        "para3": "Uz prostranost i savremene pogodnosti, naša trokrevetna soba je savršen izbor za nezaboravan boravak ispunjen udobnošću i pogodnostima koje prevazilaze vaša očekivanja.",
+        "btn": "Pogledajte više soba"
+      },
+      "family": {
+        "title": "Porodična Soba",
+        "description": "Opis",
+        "para1": "Stvorite nezaboravne uspomene sa svojim najmilijima u našoj prostranoj i prijatnoj porodičnoj sobi, dizajniranoj da ugosti porodice svih veličina. Uđite u velikodušno uređen prostor sa modernim nameštajem i ukusnom dekoracijom koja stvara toplu i prijatnu atmosferu. Ostanite povezani uz besplatan brzi WiFi i uživajte u zabavi na televizoru od 32 inča sa satelitskim kanalima. Individualno klimatizovanje osigurava udobnost za svakog člana porodice tokom cele boravka.",
+        "para2": "Potpuno opremljena čajna kuhinja nudi fleksibilnost da pripremite obroke ili užine po želji, dodajući dodatni nivo pogodnosti. Osvežite se u privatnom kupatilu sa svim neophodnim sadržajima. Izađite na balkon i uživajte u svežem vazduhu i zadivljujućem pogledu – savršeno mesto za opuštanje posle dana punog avantura.",
+        "para3": "Sa obiljem prostora i savremenim pogodnostima, naša porodična soba je idealan izbor za nezaboravan boravak koji okuplja porodicu i stvara dragocene uspomene koje traju ceo život.",
+        "btn": "Pogledajte više soba"
+      }
+    }
   },
   "Amenities": {
     "title": "Hotelski Sadržaji",
@@ -105,7 +164,42 @@
       "family": {
         "title": "Porodična Soba",
         "btnTitle": "Pogledaj više..",
+        "alt": "Cetvorokrevetna Soba",
         "description": "Prostrana četvorokrevetna soba savršena za porodice ili grupe prijatelja. Sa više kreveta i dosta prostora za opuštanje, idealna je baza za odmor pun zabave."
+      }
+    },
+    "roomInfo": {
+      "single": {
+        "title": "Jednokrevetna Soba",
+        "description": "Opis",
+        "para1": "Pobegnite u mir u našoj udobnoj Jednokrevetnoj Sobi, dizajniranoj da solo putnicima pruži utočište za opuštanje i udobnost. Uđite u prostranu i elegantno nameštenu sobu sa modernim sadržajima i ukusnim enterijerom. Ostanite povezani uz besplatan WiFi velike brzine i opustite se uz TV ravnog ekrana od 32 inča sa satelitskim kanalima koji nude širok izbor zabave. Uživajte u pogodnosti individualne klimatizacije za personalizovanu udobnost tokom celog boravka.",
+        "para2": "Odmorite se u sopstvenom kupatilu koje sadrži sve što vam je potrebno za udoban i prijatan boravak. Uživajte u mekom osvetljenju, prijatnoj atmosferi i pažljivo odabranim detaljima koji unapređuju vaše iskustvo. Izađite na svoju privatnu terasu i udahnite svež vazduh uz prelep pogled — idealno za tiha jutra ili mirne večeri.",
+        "para3": "Bilo da ste ovde zbog romantičnog odmora ili osvežavajuće pauze, naša Jednokrevetna Soba nudi savršen spoj stila i komfora za nezaboravan boravak koji će vas osvežiti i obnoviti.",
+        "btn": "Pogledajte više soba"
+      },
+      "double": {
+        "title": "Dvokrevetna Soba",
+        "description": "Opis",
+        "para1": "Pobegnite u mir u našoj prijatnoj Dvokrevetnoj Sobi, dizajniranoj da parovima pruži utočište za odmor i udobnost. Uđite u prostranu i elegantno uređenu sobu sa savremenim sadržajima i ukusnim dekorom. Ostanite povezani uz besplatan WiFi velike brzine i uživajte u zabavi uz TV ravnog ekrana od 32 inča sa satelitskim kanalima. Individualna klimatizacija pruža prilagođenu udobnost tokom vašeg boravka.",
+        "para2": "Oživite se u sopstvenom kupatilu, koje je opremljeno svim neophodnim pogodnostima. Prigušeno osvetljenje, prijatna atmosfera i pažljivo odabrani detalji unapređuju vaše celokupno iskustvo. Izađite na vašu privatnu terasu i uživajte u svežem vazduhu i pogledu — savršeno za mirna jutra ili opuštajuće večeri.",
+        "para3": "Bilo da ste ovde na romantičnom putovanju ili osvežavajućem odmoru, naša Dvokrevetna Soba nudi savršen balans stila i komfora za nezaboravan boravak koji vas ostavlja osveženima i odmornima.",
+        "btn": "Pogledajte više soba"
+      },
+      "triple": {
+        "title": "Trokrevetna Soba",
+        "description": "Opis",
+        "para1": "Iskusite vrhunsku udobnost i praktičnost u našoj prostranoj Trokrevetnoj Sobi, idealnoj za porodice ili manje grupe koje traže nezaboravan boravak. Zakoračite u renoviran i moderno uređen prostor sa toplim detaljima koji stvaraju prijatnu atmosferu. Ostanite povezani pomoću besplatnog WiFi interneta velike brzine i uživajte u zabavi na TV-u od 32 inča sa satelitskim kanalima. Uživajte u udobnosti individualne klimatizacije koja vam pruža idealnu temperaturu tokom boravka.",
+        "para2": "Opustite se u prostranom privatnom kupatilu sa savremenim detaljima, mekanim peškirima i kvalitetnom kozmetikom koja će vaš boravak učiniti još prijatnijim. Za trenutke mira i svežeg vazduha, izađite na svoj balkon i uživajte u pogledu — savršeno mesto za jutarnju kafu ili zalazak sunca.",
+        "para3": "Sa pažljivo osmišljenim sadržajima i dovoljno prostora, naša Trokrevetna Soba je savršen izbor za boravak ispunjen udobnošću, zajedništvom i lepim uspomenama.",
+        "btn": "Pogledajte više soba"
+      },
+      "family": {
+        "title": "Porodična Soba",
+        "description": "Opis",
+        "para1": "Stvorite nezaboravne uspomene sa svojima u prostranoj i udobnoj Porodičnoj Sobi, pažljivo dizajniranoj za porodice svih veličina. Uživajte u velikom prostoru sa savremenim nameštajem i toplim dekorom koji stvara osećaj doma i prijatnosti. Idealna je kako za zajedničke trenutke, tako i za privatni odmor svakog člana porodice.",
+        "para2": "Koristite besplatan WiFi visokih performansi i gledajte omiljene emisije na televizoru od 32 inča sa satelitskim kanalima. Individualna klimatizacija omogućava da svi članovi porodice uživaju u savršenim uslovima tokom cele boravka.",
+        "para3": "Opustite se u modernom privatnom kupatilu sa svim potrebnim sadržajima i mekanim peškirima. Nakon dana ispunjenog avanturom, izađite na svoju terasu i udahnite morski vazduh uz pogled. Naša Porodična Soba nudi savršeno okruženje za povezivanje, udobnost i trenutke koje ćete zauvek pamtiti.",
+        "btn": "Pogledajte više soba"
       }
     }
   },

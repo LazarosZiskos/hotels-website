@@ -115,7 +115,7 @@ const GlRoute = () => {
         ></path>
       </svg>
 
-      <div className="pt-10 bg-[#F3F4F6] p-4">
+      <div className="pt-10 bg-[#F3F4F6] p-4" id="accomodation">
         <div className="flex flex-col max-w-6xl mx-auto justify-center items-center gap-8 p-4 ">
           <h1 className="text-3xl md:text-6xl tracking-wider text-center">
             {t("accomodation-title")}

@@ -2,7 +2,6 @@ import Amenities from "@/components/Amenities";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { roomTypes } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -20,6 +19,41 @@ interface RoomType {
 
 const HellasRoute = () => {
   const t = useTranslations("hellas");
+
+  const roomTypes: RoomType[] = [
+    {
+      src: "/hellasdouble1.jpg",
+      title: t("rooms-hellas.single.title"),
+      btnTitle: t("rooms-hellas.single.btnTitle"),
+      alt: t("rooms-hellas.single.alt"),
+      description: t("rooms-hellas.single.description"),
+      href: "/hellas/single",
+    },
+    {
+      src: "/hellasdouble2.jpg",
+      title: t("rooms-hellas.double.title"),
+      btnTitle: t("rooms-hellas.double.btnTitle"),
+      alt: t("rooms-hellas.double.alt"),
+      description: t("rooms-hellas.double.description"),
+      href: "/hellas/double",
+    },
+    {
+      src: "/hellastriple1.jpg",
+      title: t("rooms-hellas.triple.title"),
+      btnTitle: t("rooms-hellas.triple.btnTitle"),
+      alt: t("rooms-hellas.triple.alt"),
+      description: t("rooms-hellas.triple.description"),
+      href: "/hellas/triple",
+    },
+    {
+      src: "/hellasquad7.jpg",
+      title: t("rooms-hellas.family.title"),
+      btnTitle: t("rooms-hellas.family.btnTitle"),
+      alt: t("rooms-hellas.family.alt"),
+      description: t("rooms-hellas.family.description"),
+      href: "/hellas/quadruple",
+    },
+  ];
   return (
     <section className="pt-10">
       <div className=" bg-white w-full h-full pt-4">
@@ -74,7 +108,7 @@ const HellasRoute = () => {
         ></path>
       </svg>
 
-      <div className="pt-10 bg-[#F3F4F6]">
+      <div className="pt-10 bg-[#F3F4F6]" id="accomodation">
         <div className="flex flex-col max-w-6xl mx-auto justify-center items-center gap-8 ">
           <h1 className="text-3xl md:text-6xl tracking-wider text-cente">
             {t("accomodation-title")}

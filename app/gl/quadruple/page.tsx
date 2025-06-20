@@ -1,6 +1,9 @@
 import PhotoCarousel from "@/components/PhotoCarousel";
+import { buttonVariants } from "@/components/ui/button";
 import { facilities, imagesGL } from "@/constants/constants";
-import { CheckCheck } from "lucide-react";
+import { ArrowRight, CheckCheck } from "lucide-react";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
 import React from "react";
 
 interface Facilities {
@@ -8,9 +11,12 @@ interface Facilities {
 }
 
 const page = () => {
+  const t = useTranslations("gl");
   return (
     <section>
-      <h1 className="text-3xl md:text-5xl text-center p-8">Family Room</h1>
+      <h1 className="text-3xl md:text-5xl text-center p-8">
+        {t("roomInfo.family.title")}
+      </h1>
 
       <div className="w-full h-full pt-4 min-h-screen max-w-6xl mx-auto ">
         <div>
@@ -18,33 +24,10 @@ const page = () => {
         </div>
 
         <div className="flex flex-col items-start font-serif justify-center">
-          <h3 className="pb-4 text-3xl">Description</h3>
-          <p className="leading-8 pt-2">
-            Create lasting memories with your loved ones in our spacious and
-            inviting Family Room, designed to accommodate families of all sizes.
-            Step into a generously proportioned space, beautifully appointed
-            with modern furnishings and tasteful decor that creates a warm and
-            welcoming ambiance. Stay connected with complimentary high-speed
-            WiFi and enjoy entertainment on the 32-inch flat-screen TV with
-            satellite channels, providing entertainment options for guests of
-            all ages. Individual air conditioning ensures personalized comfort
-            for every member of the family, creating a comfortable environment
-            throughout your stay.
-          </p>
-          <p className="leading-8 pt-2">
-            The fully equipped kitchenette offers the flexibility to prepare
-            meals or snacks at your convenience, adding an extra layer of
-            convenience to your stay. Refresh yourself in the en-suite bathroom,
-            complete with all the essentials for your comfort and convenience.
-            Step out onto your private balcony to enjoy the fresh air and
-            stunning views, offering a peaceful retreat after a day of adventure
-            and exploration.
-          </p>
-          <p className="leading-8 pt-2">
-            With ample space and modern amenities, our Family Room is the
-            perfect choice for a memorable stay that brings families together
-            and creates cherished moments that last a lifetime.
-          </p>
+          <h3 className="pb-4 text-3xl">{t("roomInfo.family.description")}</h3>
+          <p className="leading-8 pt-2">{t("roomInfo.family.para1")}</p>
+          <p className="leading-8 pt-2">{t("roomInfo.family.para2")}</p>
+          <p className="leading-8 pt-2">{t("roomInfo.family.para3")}</p>
         </div>
         <h3 className="pb-4 mt-10 font-serif text-3xl">Room Facilities</h3>
         <div className="items-start font-serif mb-10">
@@ -56,6 +39,12 @@ const page = () => {
               </li>
             ))}
           </ul>
+        </div>
+        <div className="text-center mb-10 pt-10">
+          <Link href="/gl#accomodation" className={buttonVariants()}>
+            <ArrowRight />
+            {t("roomInfo.single.btn")}
+          </Link>
         </div>
       </div>
     </section>
