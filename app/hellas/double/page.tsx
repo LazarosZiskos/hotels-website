@@ -10,7 +10,7 @@ interface Facilities {
   text: string;
 }
 
-const page = () => {
+const HellasDoubleRoomPage = () => {
   const t = useTranslations("hellas");
   return (
     <section>
@@ -51,4 +51,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default HellasDoubleRoomPage;

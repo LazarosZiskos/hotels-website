@@ -10,7 +10,7 @@ interface Facilities {
   text: string;
 }
 
-const page = () => {
+const SingleRoomPage = () => {
   const t = useTranslations("gl");
   return (
     <section>
@@ -51,4 +51,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default SingleRoomPage;
