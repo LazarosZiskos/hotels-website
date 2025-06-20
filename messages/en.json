@@ -83,7 +83,32 @@
 
     "double": "Double Rooms",
     "triple": "Triple Rooms",
-    "quad": "Quadruple Rooms"
+    "quad": "Quadruple Rooms",
+    "rooms-gl": {
+      "single": {
+        "title": "Single Room",
+        "btnTitle": "View More..",
+        "alt": "Single Room",
+        "description": "Single room designed for solo travellers. Offers a cozy retreat with a large bed and calming atmosphere, ideal for a rest after a full day at the sea."
+      },
+      "double": {
+        "title": "Double Room",
+        "btnTitle": "View More..",
+        "alt": "Double Room",
+        "description": "Double room ideal for couples or friends. It comes with either two single beds or one large bed, perfect for relaxing after a day of exploring or enjoying the sun."
+      },
+      "triple": {
+        "title": "Triple Room",
+        "btnTitle": "View More..",
+        "alt": "Triple Room",
+        "description": "Triple room designed for small groups or families. Features a combination of beds to suit your needs, offering space and comfort after a full day of seaside adventures."
+      },
+      "family": {
+        "title": "Family Room",
+        "btnTitle": "View More..",
+        "description": "Spacious quadruple room perfect for families or groups of friends. With multiple beds and plenty of room to unwind, it is your ideal base for a fun-filled holiday together."
+      }
+    }
   },
   "Destinations": {
     "title": "Explore Destinations",
@@ -359,5 +384,11 @@
         "description": "If an earthquake occurs, do not panic. Lie next to your bed in a fetal position until it passes. Do not use the elevator under any circumstances."
       }
     ]
+  },
+  "restaurant": {
+    "title": "Restaurant",
+    "subtitle1": " In the hotel you can find a restaurant that offers american-style",
+    "subtitle2": "  buffet breakfast and buffet dinner with greek and international cuisine.",
+    "button": "More information"
   }
 }

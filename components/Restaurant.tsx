@@ -2,19 +2,22 @@ import React from "react";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const Restaurant = () => {
+  const t = useTranslations("restaurant");
+
   return (
     <div className="mb-40 p-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-6xl text-center tracking-wide pb-10">
-          Restaurant
+          {t("title")}
         </h1>
         <p className="text-center text-sm md:text-md font-serif text-muted-foreground tracking-wider leading-7">
-          In the hotel you can find a restaurant that offers american-style
+          {t("subtitle1")}
+
           <br />
-          buffet breakfast and buffet dinner with greek and international
-          cuisine.
+          {t("subtitle2")}
         </p>
         <div className="mt-10 flex flex-col justify-center items-center">
           <Image
@@ -26,7 +29,7 @@ const Restaurant = () => {
           />
 
           <Link href="/gl/restaurant" className={buttonVariants()}>
-            More information
+            {t("button")}
           </Link>
         </div>
       </div>

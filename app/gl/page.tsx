@@ -6,7 +6,7 @@ import Restaurant from "@/components/Restaurant";
 import RoomCard from "@/components/RoomCard";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { imagesGL, roomTypesGL } from "@/constants/constants";
+import { imagesGL } from "@/constants/constants";
 import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
@@ -23,6 +23,41 @@ interface RoomType {
 
 const GlRoute = () => {
   const t = useTranslations("gl");
+
+  const roomTypesGL: RoomType[] = [
+    {
+      src: "/gl-double4.jpg",
+      title: t("rooms-gl.single.title"),
+      btnTitle: t("rooms-gl.single.btnTitle"),
+      alt: t("rooms-gl.single.alt"),
+      description: t("rooms-gl.single.description"),
+      href: "/gl/single",
+    },
+    {
+      src: "/gl-double2.jpg",
+      title: t("rooms-gl.double.title"),
+      btnTitle: t("rooms-gl.double.btnTitle"),
+      alt: t("rooms-gl.double.alt"),
+      description: t("rooms-gl.double.description"),
+      href: "/gl/double",
+    },
+    {
+      src: "/gl-triple3.jpg",
+      title: t("rooms-gl.triple.title"),
+      btnTitle: t("rooms-gl.triple.btnTitle"),
+      alt: t("rooms-gl.triple.alt"),
+      description: t("rooms-gl.triple.description"),
+      href: "/gl/triple",
+    },
+    {
+      src: "/gl-double3.jpg",
+      title: t("rooms-gl.family.title"),
+      btnTitle: t("rooms-gl.family.btnTitle"),
+      alt: t("rooms-gl.family.alt"),
+      description: t("rooms-gl.family.description"),
+      href: "/gl/quadruple",
+    },
+  ];
 
   return (
     <section className="pt-10">

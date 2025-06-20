@@ -82,7 +82,32 @@
     "single": "Jednokrevetne Sobe",
     "double": "Dvokrevetne Sobe",
     "triple": "Trokrevetne Sobe",
-    "quad": "Četvorokrevetne Sobe"
+    "quad": "Četvorokrevetne Sobe",
+    "rooms-gl": {
+      "single": {
+        "title": "Jednokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Jednokrevetna Soba",
+        "description": "Jednokrevetna soba namenjena solo putnicima. Nudi udoban prostor sa velikim krevetom i opuštajućom atmosferom — idealno mesto za odmor nakon celodnevnog boravka na plaži."
+      },
+      "double": {
+        "title": "Dvokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Dvokrevetna Soba",
+        "description": "Dvokrevetna soba idealna za parove ili prijatelje. Dostupna je sa dva odvojena kreveta ili jednim velikim, savršena za opuštanje nakon dana istraživanja ili sunčanja."
+      },
+      "triple": {
+        "title": "Trokrevetna Soba",
+        "btnTitle": "Pogledaj više..",
+        "alt": "Trokrevetna Soba",
+        "description": "Trokrevetna soba namenjena manjim grupama ili porodicama. Nudi kombinaciju kreveta u skladu sa vašim potrebama, uz komfor i prostor nakon dana ispunjenog morskim avanturama."
+      },
+      "family": {
+        "title": "Porodična Soba",
+        "btnTitle": "Pogledaj više..",
+        "description": "Prostrana četvorokrevetna soba savršena za porodice ili grupe prijatelja. Sa više kreveta i dosta prostora za opuštanje, idealna je baza za odmor pun zabave."
+      }
+    }
   },
   "Destinations": {
     "title": "Istražite Destinacije",
@@ -359,5 +384,11 @@
         "description": "Ako dođe do zemljotresa, nemojte paničiti. Lezite pored kreveta u fetalnom položaju dok ne prođe. Ni pod kojim uslovima ne koristite lift."
       }
     ]
+  },
+  "restaurant": {
+    "title": "Ресторан",
+    "subtitle1": "У оквиру хотела налази се ресторан који нуди амерички стил",
+    "subtitle2": " доручка на бази шведског стола и вечеру на бази шведског стола са грчком и међународном кухињом.",
+    "button": "Више информација"
   }
 }
