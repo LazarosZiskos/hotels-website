@@ -13,7 +13,7 @@ interface Facilities {
 const TripleRoomPage = () => {
   const t = useTranslations("gl");
   return (
-    <section>
+    <section className="p-4">
       <h1 className="text-3xl md:text-5xl text-center p-8">
         {t("roomInfo.triple.title")}
       </h1>

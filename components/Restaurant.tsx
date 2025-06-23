@@ -21,18 +21,17 @@ const Restaurant = () => {
         </p>
         <div className="mt-10 flex flex-col justify-center items-center">
           <Image
-            src="/gl1.jpeg"
+            src="/restaurant1.jpg"
             alt="gl-restaurant"
-            width={400}
+            width={420}
             height={400}
-            className="w-200 h-100 mb-10 rounded-2xl shadow-xl"
+            className="w-180 h-150 mb-10 rounded-2xl shadow-xl object-fill"
           />
 
           <Link
             href="/gl/restaurant"
             className={
-              buttonVariants() +
-              "hover:scale-105 w-full transition-all duration-300"
+              buttonVariants() + "hover:scale-x-125 transition-all duration-300"
             }
           >
             {t("button")}

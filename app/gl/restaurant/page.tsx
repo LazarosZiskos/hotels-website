@@ -9,7 +9,7 @@ import React from "react";
 const RestaurantPage = () => {
   const t = useTranslations("gl");
   return (
-    <section>
+    <section className="p-4">
       <h1 className="text-3xl md:text-5xl text-center p-8">
         {t("restaurant.title")}
       </h1>
@@ -28,10 +28,9 @@ const RestaurantPage = () => {
             {t("restaurant.para4")}
           </p>
         </div>
-        <div className="text-center mb-10 pt-10">
+        <div className="text-center mb-10 pt-10 w-[200px]">
           <Link href="/gl#accomodation" className={buttonVariants()}>
             <ArrowRight />
-
             {t("restaurant.btn")}
           </Link>
         </div>

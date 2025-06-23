@@ -13,7 +13,7 @@ interface Facilities {
 const HellasSingleRoomPage = () => {
   const t = useTranslations("hellas");
   return (
-    <section>
+    <section className="p-4">
       <h1 className="text-3xl md:text-5xl text-center p-8">
         {t("roomInfo.single.title")}
       </h1>

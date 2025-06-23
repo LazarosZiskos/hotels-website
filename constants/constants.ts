@@ -58,11 +58,31 @@ export const paraliaImages = [
 
 export const restaurantGl = [
   {
+    src: "/breakfast7.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast4.jpeg",
+    alt: "gl-buffet",
+  },
+  {
     src: "/gl-buffet16.jpg",
     alt: "gl-buffet",
   },
   {
     src: "/gl-buffet15.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast1.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast2.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast3.jpeg",
     alt: "gl-buffet",
   },
   {
@@ -81,6 +101,15 @@ export const restaurantGl = [
     src: "/gl-buffet11.jpg",
     alt: "gl-buffet",
   },
+
+  {
+    src: "/breakfast5.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast6.jpeg",
+    alt: "gl-buffet",
+  },
   {
     src: "/gl-buffet10.jpg",
     alt: "gl-buffet",
@@ -91,6 +120,14 @@ export const restaurantGl = [
   },
   {
     src: "/gl-buffet7.jpg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast8.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast9.jpeg",
     alt: "gl-buffet",
   },
   {
@@ -110,6 +147,14 @@ export const restaurantGl = [
     alt: "gl-buffet",
   },
   {
+    src: "/breakfast10.jpeg",
+    alt: "gl-buffet",
+  },
+  {
+    src: "/breakfast11.jpeg",
+    alt: "gl-buffet",
+  },
+  {
     src: "/gl-buffet1.jpg",
     alt: "gl-buffet",
   },
@@ -121,7 +166,7 @@ export const imagesGL = [
     alt: "gl-reception",
   },
   {
-    src: "/gl-double1.jpg",
+    src: "/gl-double1.JPG",
     alt: "gl-double1",
   },
   {

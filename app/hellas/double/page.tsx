@@ -13,7 +13,7 @@ interface Facilities {
 const HellasDoubleRoomPage = () => {
   const t = useTranslations("hellas");
   return (
-    <section>
+    <section className="p-4">
       <h1 className="text-3xl md:text-5xl text-center p-8">
         {t("roomInfo.double.title")}
       </h1>
