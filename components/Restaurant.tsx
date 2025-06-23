@@ -28,7 +28,13 @@ const Restaurant = () => {
             className="w-200 h-100 mb-10 rounded-2xl shadow-xl"
           />
 
-          <Link href="/gl/restaurant" className={buttonVariants()}>
+          <Link
+            href="/gl/restaurant"
+            className={
+              buttonVariants() +
+              "hover:scale-105 w-full transition-all duration-300"
+            }
+          >
             {t("button")}
           </Link>
         </div>
