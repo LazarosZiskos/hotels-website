@@ -5,10 +5,53 @@ import { ArrowRight, CheckCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface Facilities {
   text: string;
 }
+
+export const metadata: Metadata = {
+  title: "Triple Room | Hotel GL - Ziskos Hotels",
+  description:
+    "Comfortable triple rooms at Hotel GL in Paralia Katerinis, ideal for small families or groups of three. Just 100m from the beach.",
+  keywords: [
+    "triple room Greece",
+    "Hotel GL triple room",
+    "Paralia Katerini hotel room",
+    "family room Greece",
+    "affordable hotel for families",
+    "Ziskos Hotels",
+    "GL hotel triple",
+  ],
+  alternates: {
+    canonical: "/gl/triple",
+  },
+  openGraph: {
+    title: "Triple Room - Hotel GL",
+    description:
+      "Book a spacious triple room at Hotel GL, just 100m from the beach in Paralia Katerinis. Ideal for families or groups of three.",
+    url: "https://www.ziskos-hotels.gr/gl/triple",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/gl-triple3.JPG",
+        width: 1200,
+        height: 630,
+        alt: "Triple Room at Hotel GL",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Triple Room - Hotel GL",
+    description:
+      "Stay in our modern triple rooms at Hotel GL, perfect for families or friends. Only 100m from the sea in Paralia Katerinis.",
+    images: ["/gl-triple3.JPG"],
+  },
+};
 
 const TripleRoomPage = () => {
   const t = useTranslations("gl");

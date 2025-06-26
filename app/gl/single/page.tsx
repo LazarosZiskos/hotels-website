@@ -5,10 +5,53 @@ import { ArrowRight, CheckCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface Facilities {
   text: string;
 }
+
+export const metadata: Metadata = {
+  title: "Single Room | Hotel GL - Ziskos Hotels",
+  description:
+    "Comfortable single rooms at Hotel GL in Paralia Katerinis, ideal for solo travelers. Just 100m from the beach with great amenities.",
+  keywords: [
+    "single room Greece",
+    "Hotel GL Paralia",
+    "solo travel Paralia Katerini",
+    "Ziskos Hotels",
+    "affordable accommodation Greece",
+    "Paralia Katerini hotel",
+    "beach hotel Greece",
+  ],
+  alternates: {
+    canonical: "/gl/single",
+  },
+  openGraph: {
+    title: "Single Room - Hotel GL",
+    description:
+      "Explore our cozy single rooms at Hotel GL – perfect for solo travelers seeking comfort near the sea.",
+    url: "https://www.ziskos-hotels.gr/gl/single",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/gldouble4.JPG",
+        width: 1200,
+        height: 630,
+        alt: "Single Room at Hotel GL",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Single Room - Hotel GL",
+    description:
+      "Stay in a modern single room at Hotel GL, just steps from the beach in Paralia Katerinis.",
+    images: ["/gldouble4.JPG"],
+  },
+};
 
 const SingleRoomPage = () => {
   const t = useTranslations("gl");

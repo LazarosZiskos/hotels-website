@@ -5,10 +5,53 @@ import { ArrowRight, CheckCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface Facilities {
   text: string;
 }
+
+export const metadata: Metadata = {
+  title: "Family Room | Hotel GL - Ziskos Hotels",
+  description:
+    "Spacious family rooms (quadruple) at Hotel GL in Paralia Katerinis. Ideal for families and groups, just 100m from the beach.",
+  keywords: [
+    "family hotel room Greece",
+    "quadruple room Paralia",
+    "Hotel GL family room",
+    "Ziskos Hotels",
+    "Paralia Katerini rooms",
+    "budget family hotel Greece",
+    "accommodation for 4 people Greece",
+  ],
+  alternates: {
+    canonical: "/gl/quadruple",
+  },
+  openGraph: {
+    title: "Family Room - Hotel GL",
+    description:
+      "Enjoy your stay in our large family rooms at Hotel GL. Perfect for families or groups, located near the beach in Paralia Katerinis.",
+    url: "https://www.ziskos-hotels.gr/gl/quadruple",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/gl-double5.JPG",
+        width: 1200,
+        height: 630,
+        alt: "Family Room at Hotel GL",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Family Room - Hotel GL",
+    description:
+      "Spacious quadruple rooms for families at Hotel GL in Paralia Katerinis. Just 100m from the sea, perfect for summer holidays.",
+    images: ["/gl-double5.JPG"],
+  },
+};
 
 const QuadRoomPage = () => {
   const t = useTranslations("gl");
