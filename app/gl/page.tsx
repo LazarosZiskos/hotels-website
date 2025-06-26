@@ -1,5 +1,3 @@
-"use client";
-
 import Amenities from "@/components/Amenities";
 import PhotoCarousel from "@/components/PhotoCarousel";
 import Restaurant from "@/components/Restaurant";
@@ -11,6 +9,7 @@ import { Star } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface RoomType {
   src: string;
@@ -20,6 +19,51 @@ interface RoomType {
   description: string;
   href: string;
 }
+
+export const metadata: Metadata = {
+  title: "Hotel GL | Ziskos Hotels",
+  description:
+    "Modern 3-star hotel in Paralia Katerini, just 100m from the sea. Offers spacious double, triple and family rooms with breakfast & dinner buffet.",
+  keywords: [
+    "Hotel GL",
+    "Paralia Katerini",
+    "Greece hotel",
+    "Family accommodation",
+    "Beach hotel",
+    "Greek buffet",
+    "Affordable hotel Greece",
+    "Ziskos Hotels",
+    "3-star hotel Greece",
+  ],
+  metadataBase: new URL("https://www.ziskos-hotels.gr"),
+  alternates: {
+    canonical: "/gl",
+  },
+  openGraph: {
+    title: "Hotel GL | Ziskos Hotels",
+    description:
+      "Stay at Hotel GL – a 3-star hotel 100m from the sea in Paralia Katerini. Comfortable rooms, Greek buffet and excellent hospitality.",
+    url: "https://www.ziskos-hotels.gr/gl",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/gl1.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Hotel GL exterior photo",
+      },
+    ],
+    locale: "en",
+    type: "website", // 👈 Εδώ πάντα 'website', όχι 'hotel'
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hotel GL | Ziskos Hotels",
+    description:
+      "Discover Hotel GL – a 3-star hotel in Paralia Katerini ideal for beach holidays, families and Balkan visitors.",
+    images: ["/gl1.jpeg"],
+  },
+};
 
 const GlRoute = () => {
   const t = useTranslations("gl");

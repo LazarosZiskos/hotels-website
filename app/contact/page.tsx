@@ -1,5 +1,3 @@
-"use client";
-
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -8,6 +6,53 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Smartphone } from "lucide-react";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Ziskos Hotels in Paralia Katerinis",
+  description:
+    "Get in touch with Ziskos Hotels to ask about availability, make a reservation or get more information about your stay in Paralia Katerini, Greece.",
+  keywords: [
+    "Hotel contact Paralia Katerini",
+    "Hotel Hellas contact",
+    "Hotel GL contact",
+    "Book hotel in Greece",
+    "Hotel availability inquiry",
+    "Contact Ziskos Hotels",
+    "Family hotel Greece",
+    "Hotel reservation form",
+    "Vacation in Paralia",
+    "Paralia Katerini hotels",
+  ],
+  metadataBase: new URL("https://www.ziskos-hotels.gr"),
+  alternates: {
+    canonical: "/contact",
+  },
+  openGraph: {
+    title: "Contact Ziskos Hotels | Hellas & GL",
+    description:
+      "Send us your questions or request availability through our contact form. We're here to help you plan the perfect stay in Paralia Katerinis.",
+    url: "https://www.ziskos-hotels.gr/contact",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/og-cover.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact Ziskos Hotels",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Contact Ziskos Hotels | Hellas & GL",
+    description:
+      "Fill out our form to inquire about room availability, prices or general info about your holidays in Paralia Katerinis.",
+    images: ["/og-cover.png"],
+  },
+};
 
 export default function ContactPage() {
   const t = useTranslations("Contact");

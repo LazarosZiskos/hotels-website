@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface RoomType {
   src: string;
@@ -16,6 +17,51 @@ interface RoomType {
   description: string;
   href: string;
 }
+
+export const metadata: Metadata = {
+  title: "Hotel Hellas | Ziskos Hotels",
+  description:
+    "3-star hotel near the center of Paralia Katerini, just 100m from the beach. Offering single, double, triple and family rooms.",
+  keywords: [
+    "Hotel Hellas",
+    "Ziskos Hotels",
+    "Paralia Katerini hotel",
+    "3-star hotel Greece",
+    "Family hotel Paralia",
+    "Beach hotel Greece",
+    "Affordable holidays",
+    "Greek summer",
+    "Road tourism Balkans",
+  ],
+  metadataBase: new URL("https://www.ziskos-hotels.gr"),
+  alternates: {
+    canonical: "/hellas",
+  },
+  openGraph: {
+    title: "Hotel Hellas | Ziskos Hotels",
+    description:
+      "Stay at Hotel Hellas – a cozy 3-star hotel in Paralia Katerini, only 100m from the sea. Ideal for families and couples.",
+    url: "https://www.ziskos-hotels.gr/hellas",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/hellas1.jpg", // Βεβαιώσου πως είναι μέσα στο /public
+        width: 1200,
+        height: 630,
+        alt: "Hotel Hellas exterior photo",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hotel Hellas | Ziskos Hotels",
+    description:
+      "Comfortable and affordable rooms just 100m from the sea in Paralia Katerini.",
+    images: ["/hellas1.jpg"],
+  },
+};
 
 const HellasRoute = () => {
   const t = useTranslations("hellas");

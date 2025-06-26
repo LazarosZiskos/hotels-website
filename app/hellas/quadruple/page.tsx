@@ -5,10 +5,53 @@ import { ArrowRight, CheckCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface Facilities {
   text: string;
 }
+
+export const metadata: Metadata = {
+  title: "Family Rooms | Hotel Hellas - Ziskos Hotels",
+  description:
+    "Spacious and family-friendly quadruple rooms at Hotel Hellas in Paralia Katerinis. Ideal for families with children, just 100m from the beach.",
+  keywords: [
+    "family hotel Greece",
+    "quadruple room Paralia",
+    "Hotel Hellas family room",
+    "4-bed room Greece",
+    "Paralia Katerini hotel room",
+    "Greek seaside family hotel",
+    "Ziskos Hotels",
+  ],
+  alternates: {
+    canonical: "/hellas/quadruple",
+  },
+  openGraph: {
+    title: "Family Rooms - Hotel Hellas",
+    description:
+      "Stay in our comfortable family rooms at Hotel Hellas, perfect for 4 guests and just steps from the beach.",
+    url: "https://www.ziskos-hotels.gr/hellas/quadruple",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/hellasquad1.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Family Room at Hotel Hellas",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Family Rooms - Hotel Hellas",
+    description:
+      "Comfortable and spacious quadruple rooms in Paralia Katerinis. Ideal for families at Ziskos Hotels.",
+    images: ["/hellasquad1.jpg"],
+  },
+};
 
 const HellasQuadRoomPage = () => {
   const t = useTranslations("hellas");

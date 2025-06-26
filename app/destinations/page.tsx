@@ -1,11 +1,56 @@
-"use client";
-
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin } from "lucide-react";
 import Image from "next/image";
 import { destinations } from "@/constants/constants";
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Destinations Near Ziskos Hotels | Daily Trips in Greece",
+  description:
+    "Take exciting daily trips from Paralia Katerini to iconic destinations like Mount Olympus, Meteora, Skiathos, Thessaloniki, Athens and Waterland. Discover the beauty of Greece during your stay at Ziskos Hotels.",
+  keywords: [
+    "Daily trips from Paralia Katerini",
+    "Day trips Greece",
+    "Mount Olympus tour",
+    "Meteora from Paralia",
+    "Thessaloniki day trip",
+    "Skiathos ferry tour",
+    "Waterland Thessaloniki",
+    "Ziskos Hotels excursions",
+    "Greek sightseeing",
+    "Near Hotel Hellas GL",
+  ],
+  metadataBase: new URL("https://www.ziskos-hotels.gr"),
+  alternates: {
+    canonical: "/destinations",
+  },
+  openGraph: {
+    title: "Destinations Near Ziskos Hotels | Day Trips in Greece",
+    description:
+      "Visit Mount Olympus, Meteora, Skiathos, Thessaloniki, Athens & more – all within reach from Ziskos Hotels in Paralia Katerinis.",
+    url: "https://www.ziskos-hotels.gr/destinations",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/og-cover.png",
+        width: 1200,
+        height: 630,
+        alt: "Day trips near Ziskos Hotels",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Destinations Near Ziskos Hotels",
+    description:
+      "Explore iconic Greek sights like Olympus & Meteora – perfect for day trips during your stay at Ziskos Hotels.",
+    images: ["/og-cover.png"],
+  },
+};
 
 export default function DestinationsPage() {
   const t = useTranslations("Destinations");

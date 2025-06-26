@@ -5,10 +5,53 @@ import { ArrowRight, CheckCheck } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 interface Facilities {
   text: string;
 }
+
+export const metadata: Metadata = {
+  title: "Double Rooms | Hotel Hellas - Ziskos Hotels",
+  description:
+    "Spacious and modern double rooms at Hotel Hellas in Paralia Katerinis. Ideal for couples or friends, just 100m from the beach.",
+  keywords: [
+    "double hotel room Greece",
+    "Hotel Hellas double room",
+    "couples accommodation Paralia",
+    "Ziskos Hotels",
+    "budget double room",
+    "Paralia Katerini hotels",
+    "modern hotel rooms Greece",
+  ],
+  alternates: {
+    canonical: "/hellas/double",
+  },
+  openGraph: {
+    title: "Hotel Hellas Double Rooms",
+    description:
+      "Stay in comfort with our modern double rooms, only 100m from the sea in Paralia Katerini.",
+    url: "https://www.ziskos-hotels.gr/hellas/double",
+    siteName: "Ziskos Hotels",
+    images: [
+      {
+        url: "/hellasdouble2.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Double Room at Hotel Hellas",
+      },
+    ],
+    locale: "en",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Double Rooms - Hotel Hellas",
+    description:
+      "Comfortable and affordable double rooms at Hotel Hellas. Close to the beach and perfect for couples.",
+    images: ["/hellasdouble2.jpg"],
+  },
+};
 
 const HellasDoubleRoomPage = () => {
   const t = useTranslations("hellas");
