@@ -2,6 +2,14 @@
   "TabTitle": {
     "home": "Ласкаво просимо до Ziskos Hotels, Паралія"
   },
+  "Navbar": {
+    "Home": "Головна",
+    "About": "Інформація",
+    "hellas": "Готель Hellas",
+    "gl": "Готель GL",
+    "destinations": "Поруч розташовані місця",
+    "contact": "Контакт"
+  },
   "Homepage": {
     "title1": "з Паралії",
     "subtitle1": "Обирайте один із наших тризіркових готелів",

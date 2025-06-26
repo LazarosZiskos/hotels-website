@@ -2,6 +2,14 @@
   "TabTitle": {
     "home": "Dobrodošli u Ziskos Hotels, Paralija"
   },
+  "Navbar": {
+    "Home": "Почетна",
+    "About": "Информације",
+    "hellas": "Хотел Hellas",
+    "gl": "Хотел GL",
+    "destinations": "Блиске дестинације",
+    "contact": "Контакт"
+  },
   "Homepage": {
     "title1": "iz Paralije",
     "subtitle1": "Izaberite jedan od naših hotela sa tri zvezdice",

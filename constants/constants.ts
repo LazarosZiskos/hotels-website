@@ -3,7 +3,7 @@ import { Clock, Coffee, Package, Shield, Utensils, Wifi } from "lucide-react";
 export const navLinks = [
   {
     id: 1,
-    title: "Home",
+    title: "Home", // key
     href: "/",
   },
   {
@@ -13,22 +13,22 @@ export const navLinks = [
   },
   {
     id: 3,
-    title: "Hotel Hellas",
+    title: "hellas", // key που ταιριάζει με το "Hotel Hellas" στο JSON
     href: "/hellas",
   },
   {
     id: 4,
-    title: "Hotel GL",
+    title: "gl", // key για Hotel GL
     href: "/gl",
   },
   {
     id: 5,
-    title: "Destinations",
+    title: "destinations",
     href: "/destinations",
   },
   {
     id: 6,
-    title: "Contact",
+    title: "contact",
     href: "/contact",
   },
 ];

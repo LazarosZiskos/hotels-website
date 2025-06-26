@@ -1,19 +1,14 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 import { navLinks } from "@/constants/constants";
 import { cn } from "@/lib/utils";
-import { usePathname } from "next/navigation";
 import MobileNav from "./MobileNav";
-import { useRouter } from "next/navigation";
 import { Globe } from "lucide-react";
-
-interface NavLinks {
-  title: string;
-  href: string;
-  id: number;
-}
 
 const languages = [
   { code: "en", label: "English", flag: "🇬🇧" },
@@ -23,47 +18,29 @@ const languages = [
 ];
 
 const Navbar = () => {
-  const [locale, setLocale] = useState<string>("");
+  const t = useTranslations("Navbar");
+  const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
-
-  useEffect(() => {
-    const cookieLocale = document.cookie
-      .split("; ")
-      .find((row) => row.startsWith("MYNEXTAPP_LOCALE="))
-      ?.split("=")[1];
-    if (cookieLocale) {
-      setLocale(cookieLocale);
-    } else {
-      const browserLocale = navigator.language.slice(0, 2);
-      setLocale(browserLocale);
-      document.cookie = `MYNEXTAPP_LOCALE=${browserLocale};`;
-      router.refresh();
-    }
-  }, [router]);
+  const [open, setOpen] = useState(false);
 
   const changeLocale = (newLocale: string) => {
-    setLocale(newLocale);
-    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
-    router.refresh();
+    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}; path=/;`;
+    router.refresh(); // απλά κάνε refresh για να επαναφορτώσει με το νέο locale
   };
-  const [open, setOpen] = useState(false);
 
   return (
     <nav className="top-0 z-10 sticky bg-white border-b backdrop-blur-md border-foreground/20">
       <div className="hidden px-[100px] h-25 lg:flex justify-between z-10">
         <div className="md:flex items-center justify-center">
-          <Link
-            href="/"
-            className="flex items-center justify-center font-semibold"
-          >
+          <Link href="/" className="flex items-center font-semibold">
             <Image src="/logo.png" width={90} height={90} alt="logo" />
             <h2 className="text-xl text-primary font-serif">Ziskos Hotels</h2>
           </Link>
         </div>
 
-        <div className="hidden md:flex items-center justify-center space-x-10">
-          {navLinks.map((link: NavLinks) => (
+        <div className="hidden md:flex items-center space-x-10">
+          {navLinks.map((link) => (
             <Link
               key={link.id}
               href={link.href}
@@ -71,13 +48,14 @@ const Navbar = () => {
                 pathname === link.href
                   ? "text-foreground"
                   : "text-muted-foreground",
-                "hover:text-foreground transition-colors font-serif "
+                "hover:text-foreground transition-colors font-serif"
               )}
             >
-              {link.title}
+              {t(link.title)}
             </Link>
           ))}
         </div>
+
         <div className="relative inline-block top-7 text-right">
           <button
             onClick={() => setOpen(!open)}
@@ -89,16 +67,16 @@ const Navbar = () => {
 
           {open && (
             <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
-              {languages.map((lang, index) => (
+              {languages.map((lang) => (
                 <li
-                  key={index}
+                  key={lang.code}
                   onClick={() => {
                     changeLocale(lang.code);
                     setOpen(false);
                   }}
                   className={`${
-                    locale === lang.code && "text-primary"
-                  } + "cursor-pointer px-4 py-2 hover:bg-gray-100 flex items-center gap-2"`}
+                    locale === lang.code ? "text-primary" : ""
+                  } cursor-pointer px-4 py-2 hover:bg-gray-100 flex items-center gap-2`}
                 >
                   <span>{lang.flag}</span>
                   <span>{lang.label}</span>
@@ -110,12 +88,9 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center justify-between px-8 py-2 lg:hidden">
-        <div className="md:flex items-center justify-center">
-          <Link href="/">
-            <Image src="/logo.png" width={50} height={50} alt="logo" />
-          </Link>
-        </div>
-
+        <Link href="/">
+          <Image src="/logo.png" width={50} height={50} alt="logo" />
+        </Link>
         <MobileNav />
       </div>
     </nav>

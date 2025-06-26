@@ -2,6 +2,15 @@
   "TabTitle": {
     "home": "Welcome to Ziskos Hotels, Paralia"
   },
+
+  "Navbar": {
+    "Home": "Home",
+    "About": "About",
+    "hellas": "Hotel Hellas",
+    "gl": "Hotel GL",
+    "destinations": "Destinations",
+    "contact": "Contact"
+  },
   "Homepage": {
     "title1": "from Paralia",
     "subtitle1": "Choose from one of our three-star Hotels",
