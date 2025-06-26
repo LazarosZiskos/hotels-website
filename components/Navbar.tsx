@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { navLinks } from "@/constants/constants";
 import { cn } from "@/lib/utils";
 import MobileNav from "./MobileNav";
@@ -26,7 +26,7 @@ const Navbar = () => {
 
   const changeLocale = (newLocale: string) => {
     document.cookie = `MYNEXTAPP_LOCALE=${newLocale}; path=/;`;
-    router.refresh(); // απλά κάνε refresh για να επαναφορτώσει με το νέο locale
+    router.refresh();
   };
 
   return (
@@ -89,7 +89,7 @@ const Navbar = () => {
 
       <div className="flex items-center justify-between px-8 py-2 lg:hidden">
         <Link href="/">
-          <Image src="/logo.png" width={50} height={50} alt="logo" />
+          <Image src="/logo.png" width={80} height={80} alt="logo" />
         </Link>
         <MobileNav />
       </div>

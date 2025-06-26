@@ -1,17 +1,13 @@
 "use client";
-import React, { useEffect, useState } from "react";
+
+import React, { useState } from "react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 import { MenuIcon, Globe } from "lucide-react";
 import { navLinks } from "@/constants/constants";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
-
-interface NavLinks {
-  title: string;
-  href: string;
-  id: number;
-}
+import { useTranslations, useLocale } from "next-intl";
 
 const languages = [
   { code: "en", label: "English", flag: "🇬🇧" },
@@ -22,40 +18,25 @@ const languages = [
 
 const MobileNav = () => {
   const pathname = usePathname();
-  const [locale, setLocale] = useState<string>("");
   const router = useRouter();
-
-  useEffect(() => {
-    const cookieLocale = document.cookie
-      .split("; ")
-      .find((row) => row.startsWith("MYNEXTAPP_LOCALE="))
-      ?.split("=")[1];
-    if (cookieLocale) {
-      setLocale(cookieLocale);
-    } else {
-      const browserLocale = navigator.language.slice(0, 2);
-      setLocale(browserLocale);
-      document.cookie = `MYNEXTAPP_LOCALE=${browserLocale};`;
-      router.refresh();
-    }
-  }, [router]);
+  const t = useTranslations("Navbar");
+  const locale = useLocale();
+  const [openLangMenu, setOpenLangMenu] = useState(false);
 
   const changeLocale = (newLocale: string) => {
-    setLocale(newLocale);
-    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}`;
+    document.cookie = `MYNEXTAPP_LOCALE=${newLocale}; path=/`;
     router.refresh();
   };
-  const [open, setOpen] = useState(false);
 
   return (
     <div>
       <Sheet>
         <SheetTrigger>
-          <MenuIcon />
+          <MenuIcon size={30} />
         </SheetTrigger>
-        <SheetContent side={"right"}>
+        <SheetContent side="right">
           <div className="flex flex-col items-center justify-center mt-[100px] gap-6">
-            {navLinks.map((link: NavLinks) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.id}
                 href={link.href}
@@ -66,30 +47,31 @@ const MobileNav = () => {
                   "hover:text-foreground transition-colors"
                 )}
               >
-                <SheetClose>{link.title}</SheetClose>
+                <SheetClose>{t(link.title)}</SheetClose>
               </Link>
             ))}
-            <div>
+
+            <div className="relative text-center mt-4">
               <button
-                onClick={() => setOpen(!open)}
+                onClick={() => setOpenLangMenu(!openLangMenu)}
                 className="inline-flex items-center gap-2 px-4 py-2 bg-white border rounded-lg shadow-sm hover:bg-gray-50"
               >
                 <Globe size={20} className="text-primary" />
                 <span className="uppercase">{locale}</span>
               </button>
 
-              {open && (
+              {openLangMenu && (
                 <ul className="absolute right-0 z-10 mt-2 w-48 bg-white border rounded-md shadow-lg">
-                  {languages.map((lang, index) => (
-                    <SheetClose key={index}>
+                  {languages.map((lang) => (
+                    <SheetClose key={lang.code}>
                       <li
                         onClick={() => {
                           changeLocale(lang.code);
-                          setOpen(false);
+                          setOpenLangMenu(false);
                         }}
                         className={`${
-                          locale === lang.code && "text-primary"
-                        } + "cursor-pointer px-4 py-2 hover:bg-gray-100 flex items-center gap-2"`}
+                          locale === lang.code ? "text-primary" : ""
+                        } cursor-pointer px-4 py-2 hover:bg-gray-100 flex items-center gap-2`}
                       >
                         <span>{lang.flag}</span>
                         <span>{lang.label}</span>
